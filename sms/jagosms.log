@@ -1,0 +1,348 @@
+2014-12-18 12:53:05,589-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 12:53:05,590-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 12:53:05,590-FastAGI-INFO : agi_callington = '0'
+2014-12-18 12:53:05,590-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 12:53:05,591-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 12:53:05,592-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 12:53:05,594-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 12:53:05,594-FastAGI-INFO : agi_extension = '123'
+2014-12-18 12:53:05,594-FastAGI-INFO : agi_priority = '1'
+2014-12-18 12:53:05,594-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 12:53:05,594-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 12:53:05,596-SMS:+917096263770-DEBUG : Responce for Number +917096263770 :: Message already send in last 24 hours.
+2014-12-18 12:53:05,596-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 12:53:05,598-FastAGI-INFO : Connection terminated
+2014-12-18 12:53:38,491-FastAGI-INFO : New Connection
+2014-12-18 12:53:38,491-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 12:53:38,492-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 12:53:38,493-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-0000000b'
+2014-12-18 12:53:38,493-FastAGI-INFO : agi_language = 'en'
+2014-12-18 12:53:38,494-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 12:53:38,494-FastAGI-INFO : agi_uniqueid = '1418887418.11'
+2014-12-18 12:53:38,495-FastAGI-INFO : agi_callerid = '+918511962618'
+2014-12-18 12:53:38,495-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 12:53:38,496-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 12:53:38,499-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 12:53:38,500-FastAGI-INFO : agi_callington = '0'
+2014-12-18 12:53:38,500-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 12:53:38,501-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 12:53:38,501-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 12:53:38,501-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 12:53:38,502-FastAGI-INFO : agi_extension = '123'
+2014-12-18 12:53:38,502-FastAGI-INFO : agi_priority = '1'
+2014-12-18 12:53:38,503-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 12:53:38,503-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 12:53:38,505-SMS:+918511962618-DEBUG : Responce for Number +918511962618 :: Message already send in last 24 hours.
+2014-12-18 12:53:38,505-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 12:53:38,507-FastAGI-INFO : Connection terminated
+2014-12-18 12:56:53,502-FastAGI-INFO : New Connection
+2014-12-18 12:56:53,502-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 12:56:53,503-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 12:56:53,503-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-0000000c'
+2014-12-18 12:56:53,503-FastAGI-INFO : agi_language = 'en'
+2014-12-18 12:56:53,504-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 12:56:53,504-FastAGI-INFO : agi_uniqueid = '1418887613.12'
+2014-12-18 12:56:53,505-FastAGI-INFO : agi_callerid = '+918511962618'
+2014-12-18 12:56:53,505-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 12:56:53,512-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 12:56:53,513-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 12:56:53,514-FastAGI-INFO : agi_callington = '0'
+2014-12-18 12:56:53,514-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 12:56:53,514-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 12:56:53,515-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 12:56:53,515-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 12:56:53,515-FastAGI-INFO : agi_extension = '123'
+2014-12-18 12:56:53,516-FastAGI-INFO : agi_priority = '1'
+2014-12-18 12:56:53,516-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 12:56:53,516-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 12:56:53,535-Jago-DEBUG : Connected to DB 
+2014-12-18 12:56:53,540-SMS:+918511962618-DEBUG : Start of Script for number +918511962618
+2014-12-18 12:56:53,540-SMS:+918511962618-DEBUG : sending message to misscaller ::+918511962618
+2014-12-18 12:56:57,194-Jago-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=+918511962618&msg=Hi,%20this%20is%20a%20test%20message%20from%20Lintel%20Technologies.
+2014-12-18 12:56:57,195-SMS:+918511962618-DEBUG : Getting SMS response for +918511962618
+2014-12-18 12:56:58,412-SMS:+918511962618-DEBUG : Responce for Number +918511962618 :: 1 SMS Sent.
+2014-12-18 12:56:58,412-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 12:56:58,414-Jago-DEBUG : Connected to DB 
+2014-12-18 12:56:58,416-FastAGI-INFO : Connection terminated
+2014-12-18 12:57:16,998-FastAGI-INFO : New Connection
+2014-12-18 12:57:16,998-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 12:57:16,999-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 12:57:17,000-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-0000000d'
+2014-12-18 12:57:17,001-FastAGI-INFO : agi_language = 'en'
+2014-12-18 12:57:17,001-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 12:57:17,002-FastAGI-INFO : agi_uniqueid = '1418887636.13'
+2014-12-18 12:57:17,003-FastAGI-INFO : agi_callerid = '+917096263770'
+2014-12-18 12:57:17,003-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 12:57:17,008-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 12:57:17,008-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 12:57:17,009-FastAGI-INFO : agi_callington = '0'
+2014-12-18 12:57:17,010-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 12:57:17,010-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 12:57:17,011-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 12:57:17,011-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 12:57:17,011-FastAGI-INFO : agi_extension = '123'
+2014-12-18 12:57:17,012-FastAGI-INFO : agi_priority = '1'
+2014-12-18 12:57:17,012-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 12:57:17,013-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 12:57:17,015-SMS:+917096263770-DEBUG : Responce for Number +917096263770 :: Message already send in last 24 hours.
+2014-12-18 12:57:17,015-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 12:57:17,016-FastAGI-INFO : Connection terminated
+2014-12-18 12:58:01,240-FastAGI-INFO : New Connection
+2014-12-18 12:58:01,240-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 12:58:01,241-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 12:58:01,242-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-0000000e'
+2014-12-18 12:58:01,242-FastAGI-INFO : agi_language = 'en'
+2014-12-18 12:58:01,243-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 12:58:01,243-FastAGI-INFO : agi_uniqueid = '1418887681.14'
+2014-12-18 12:58:01,244-FastAGI-INFO : agi_callerid = '+919825522823'
+2014-12-18 12:58:01,245-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 12:58:01,245-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 12:58:01,245-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 12:58:01,245-FastAGI-INFO : agi_callington = '0'
+2014-12-18 12:58:01,246-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 12:58:01,246-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 12:58:01,246-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 12:58:01,246-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 12:58:01,247-FastAGI-INFO : agi_extension = '123'
+2014-12-18 12:58:01,251-FastAGI-INFO : agi_priority = '1'
+2014-12-18 12:58:01,251-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 12:58:01,252-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 12:58:01,253-SMS:+919825522823-DEBUG : Responce for Number +919825522823 :: Message already send in last 24 hours.
+2014-12-18 12:58:01,255-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 12:58:01,256-FastAGI-INFO : Connection terminated
+2014-12-18 13:01:38,708-FastAGI-INFO : New Connection
+2014-12-18 13:01:38,708-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:01:38,709-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:01:38,709-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-0000000f'
+2014-12-18 13:01:38,709-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:01:38,710-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:01:38,711-FastAGI-INFO : agi_uniqueid = '1418887898.15'
+2014-12-18 13:01:38,711-FastAGI-INFO : agi_callerid = '+919825522823'
+2014-12-18 13:01:38,712-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:01:38,712-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:01:38,714-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:01:38,715-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:01:38,715-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:01:38,716-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:01:38,716-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:01:38,716-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:01:38,716-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:01:38,717-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:01:38,717-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:01:38,717-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:01:38,739-SMS:+919825522823-DEBUG : Responce for Number +919825522823 :: Message already send in last 24 hours.
+2014-12-18 13:01:38,740-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:01:38,741-FastAGI-INFO : Connection terminated
+2014-12-18 13:04:04,592-FastAGI-INFO : New Connection
+2014-12-18 13:04:04,593-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:04:04,593-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:04:04,593-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-00000010'
+2014-12-18 13:04:04,594-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:04:04,594-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:04:04,595-FastAGI-INFO : agi_uniqueid = '1418888044.16'
+2014-12-18 13:04:04,595-FastAGI-INFO : agi_callerid = '+917405091551'
+2014-12-18 13:04:04,596-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:04:04,596-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:04:04,597-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:04:04,597-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:04:04,597-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:04:04,598-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:04:04,598-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:04:04,598-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:04:04,599-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:04:04,599-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:04:04,600-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:04:04,604-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:04:04,625-SMS:+917405091551-DEBUG : Responce for Number +917405091551 :: Message already send in last 24 hours.
+2014-12-18 13:04:04,626-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:04:04,635-FastAGI-INFO : Connection terminated
+2014-12-18 13:04:47,945-FastAGI-INFO : New Connection
+2014-12-18 13:04:47,945-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:04:47,945-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:04:47,946-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-00000011'
+2014-12-18 13:04:47,946-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:04:47,947-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:04:47,947-FastAGI-INFO : agi_uniqueid = '1418888087.17'
+2014-12-18 13:04:47,947-FastAGI-INFO : agi_callerid = '+917405091551'
+2014-12-18 13:04:47,948-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:04:47,952-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:04:47,953-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:04:47,953-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:04:47,954-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:04:47,955-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:04:47,955-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:04:47,955-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:04:47,956-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:04:47,956-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:04:47,957-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:04:47,957-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:04:47,979-Jago-DEBUG : Connected to DB 
+2014-12-18 13:04:47,981-SMS:+917405091551-DEBUG : Start of Script for number +917405091551
+2014-12-18 13:04:47,982-SMS:+917405091551-DEBUG : sending message to misscaller ::+917405091551
+2014-12-18 13:05:00,041-Jago-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=+917405091551&msg=Hi,%20this%20is%20a%20test%20message%20from%20Lintel%20Technologies.
+2014-12-18 13:05:00,041-SMS:+917405091551-DEBUG : Getting SMS response for +917405091551
+2014-12-18 13:05:01,255-Jago-DEBUG : Connected to DB 
+2014-12-18 13:05:01,254-SMS:+917405091551-DEBUG : Responce for Number +917405091551 :: 1 SMS Sent.
+2014-12-18 13:05:01,256-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:05:01,258-FastAGI-INFO : Connection terminated
+2014-12-18 13:05:32,016-FastAGI-INFO : New Connection
+2014-12-18 13:05:32,016-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:05:32,017-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:05:32,017-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-00000012'
+2014-12-18 13:05:32,017-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:05:32,018-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:05:32,018-FastAGI-INFO : agi_uniqueid = '1418888132.18'
+2014-12-18 13:05:32,019-FastAGI-INFO : agi_callerid = '+918460518040'
+2014-12-18 13:05:32,019-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:05:32,020-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:05:32,021-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:05:32,021-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:05:32,022-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:05:32,022-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:05:32,023-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:05:32,023-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:05:32,026-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:05:32,026-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:05:32,027-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:05:32,027-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:05:32,033-SMS:+918460518040-DEBUG : Responce for Number +918460518040 :: Message already send in last 24 hours.
+2014-12-18 13:05:32,033-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:05:32,034-FastAGI-INFO : Connection terminated
+2014-12-18 13:06:19,268-FastAGI-INFO : New Connection
+2014-12-18 13:06:19,268-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:06:19,269-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:06:19,269-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-00000013'
+2014-12-18 13:06:19,270-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:06:19,270-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:06:19,271-FastAGI-INFO : agi_uniqueid = '1418888179.19'
+2014-12-18 13:06:19,271-FastAGI-INFO : agi_callerid = '+917405091551'
+2014-12-18 13:06:19,272-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:06:19,273-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:06:19,273-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:06:19,273-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:06:19,273-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:06:19,274-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:06:19,274-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:06:19,274-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:06:19,275-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:06:19,275-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:06:19,275-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:06:19,277-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:06:19,299-Jago-DEBUG : Connected to DB 
+2014-12-18 13:06:19,307-SMS:+917405091551-DEBUG : Start of Script for number +917405091551
+2014-12-18 13:06:19,308-SMS:+917405091551-DEBUG : sending message to misscaller ::+917405091551
+2014-12-18 13:06:25,959-Jago-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=+917405091551&msg=Hi,%20this%20is%20a%20test%20message%20from%20Lintel%20Technologies.
+2014-12-18 13:06:25,960-SMS:+917405091551-DEBUG : Getting SMS response for +917405091551
+2014-12-18 13:06:26,641-Jago-DEBUG : Connected to DB 
+2014-12-18 13:06:26,641-SMS:+917405091551-DEBUG : Responce for Number +917405091551 :: 1 SMS Sent.
+2014-12-18 13:06:26,642-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:06:26,644-FastAGI-INFO : Connection terminated
+2014-12-18 13:07:32,732-FastAGI-INFO : New Connection
+2014-12-18 13:07:32,732-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:07:32,733-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:07:32,733-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-00000014'
+2014-12-18 13:07:32,734-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:07:32,734-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:07:32,735-FastAGI-INFO : agi_uniqueid = '1418888252.20'
+2014-12-18 13:07:32,735-FastAGI-INFO : agi_callerid = '+917405091551'
+2014-12-18 13:07:32,736-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:07:32,737-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:07:32,737-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:07:32,738-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:07:32,738-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:07:32,738-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:07:32,738-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:07:32,739-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:07:32,739-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:07:32,739-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:07:32,739-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:07:32,740-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:07:32,765-Jago-DEBUG : Connected to DB 
+2014-12-18 13:07:32,768-SMS:+917405091551-DEBUG : Start of Script for number +917405091551
+2014-12-18 13:07:32,768-SMS:+917405091551-DEBUG : sending message to misscaller ::+917405091551
+2014-12-18 13:07:36,173-Jago-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=+917405091551&msg=Hi,%20this%20is%20a%20test%20message%20from%20Lintel%20Technologies.
+2014-12-18 13:07:36,173-SMS:+917405091551-DEBUG : Getting SMS response for +917405091551
+2014-12-18 13:07:37,455-SMS:+917405091551-DEBUG : Responce for Number +917405091551 :: 1 SMS Sent.
+2014-12-18 13:07:37,455-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:07:37,456-FastAGI-INFO : Connection terminated
+2014-12-18 13:07:37,458-Jago-DEBUG : Connected to DB 
+2014-12-18 13:08:13,937-FastAGI-INFO : New Connection
+2014-12-18 13:08:13,939-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:08:13,939-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:08:13,940-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-00000015'
+2014-12-18 13:08:13,940-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:08:13,941-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:08:13,941-FastAGI-INFO : agi_uniqueid = '1418888293.21'
+2014-12-18 13:08:13,942-FastAGI-INFO : agi_callerid = '+917405091551'
+2014-12-18 13:08:13,942-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:08:13,943-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:08:13,944-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:08:13,944-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:08:13,944-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:08:13,944-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:08:13,945-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:08:13,945-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:08:13,945-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:08:13,945-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:08:13,946-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:08:13,951-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:08:13,970-Jago-DEBUG : Connected to DB 
+2014-12-18 13:08:13,974-SMS:+917405091551-DEBUG : Start of Script for number +917405091551
+2014-12-18 13:08:13,977-SMS:+917405091551-DEBUG : sending message to misscaller ::+917405091551
+2014-12-18 13:08:20,719-Jago-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=+917405091551&msg=Hi,%20this%20is%20a%20test%20message%20from%20Lintel%20Technologies.
+2014-12-18 13:08:20,719-SMS:+917405091551-DEBUG : Getting SMS response for +917405091551
+2014-12-18 13:08:22,048-SMS:+917405091551-DEBUG : Responce for Number +917405091551 :: 1 SMS Sent.
+2014-12-18 13:08:22,048-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:08:22,049-FastAGI-INFO : Connection terminated
+2014-12-18 13:08:22,050-Jago-DEBUG : Connected to DB 
+2014-12-18 13:08:31,748-FastAGI-INFO : New Connection
+2014-12-18 13:08:31,748-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:08:31,748-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:08:31,749-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-00000016'
+2014-12-18 13:08:31,749-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:08:31,750-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:08:31,750-FastAGI-INFO : agi_uniqueid = '1418888311.22'
+2014-12-18 13:08:31,751-FastAGI-INFO : agi_callerid = '+918460518040'
+2014-12-18 13:08:31,751-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:08:31,752-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:08:31,753-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:08:31,753-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:08:31,753-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:08:31,754-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:08:31,754-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:08:31,754-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:08:31,754-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:08:31,755-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:08:31,757-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:08:31,758-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:08:31,763-Jago-DEBUG : Connected to DB 
+2014-12-18 13:08:31,771-SMS:+918460518040-DEBUG : Start of Script for number +918460518040
+2014-12-18 13:08:31,772-SMS:+918460518040-DEBUG : sending message to misscaller ::+918460518040
+2014-12-18 13:08:35,246-Jago-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=+918460518040&msg=Hi,%20this%20is%20a%20test%20message%20from%20Lintel%20Technologies.
+2014-12-18 13:08:35,247-SMS:+918460518040-DEBUG : Getting SMS response for +918460518040
+2014-12-18 13:08:36,499-SMS:+918460518040-DEBUG : Responce for Number +918460518040 :: 1 SMS Sent.
+2014-12-18 13:08:36,500-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:08:36,502-FastAGI-INFO : Connection terminated
+2014-12-18 13:08:51,636-FastAGI-INFO : New Connection
+2014-12-18 13:08:51,636-FastAGI-INFO : agi_network = 'yes'
+2014-12-18 13:08:51,637-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4575'
+2014-12-18 13:08:51,637-FastAGI-INFO : agi_channel = 'SIP/192.168.2.40-00000017'
+2014-12-18 13:08:51,637-FastAGI-INFO : agi_language = 'en'
+2014-12-18 13:08:51,638-FastAGI-INFO : agi_type = 'SIP'
+2014-12-18 13:08:51,638-FastAGI-INFO : agi_uniqueid = '1418888331.23'
+2014-12-18 13:08:51,639-FastAGI-INFO : agi_callerid = '+918460518040'
+2014-12-18 13:08:51,640-FastAGI-INFO : agi_calleridname = 'unknown'
+2014-12-18 13:08:51,641-FastAGI-INFO : agi_callingpres = '0'
+2014-12-18 13:08:51,641-FastAGI-INFO : agi_callingani2 = '0'
+2014-12-18 13:08:51,642-FastAGI-INFO : agi_callington = '0'
+2014-12-18 13:08:51,642-FastAGI-INFO : agi_callingtns = '0'
+2014-12-18 13:08:51,642-FastAGI-INFO : agi_dnid = '123'
+2014-12-18 13:08:51,643-FastAGI-INFO : agi_rdnis = 'unknown'
+2014-12-18 13:08:51,643-FastAGI-INFO : agi_context = 'sms'
+2014-12-18 13:08:51,643-FastAGI-INFO : agi_extension = '123'
+2014-12-18 13:08:51,644-FastAGI-INFO : agi_priority = '1'
+2014-12-18 13:08:51,644-FastAGI-INFO : agi_enhanced = '0.0'
+2014-12-18 13:08:51,647-FastAGI-INFO : agi_accountcode = ''
+2014-12-18 13:08:51,649-SMS:+918460518040-DEBUG : Responce for Number +918460518040 :: Message already send in last 24 hours.
+2014-12-18 13:08:51,649-FastAGI-INFO : Send Command: 'HANGUP'
+2014-12-18 13:08:51,651-FastAGI-INFO : Connection terminated

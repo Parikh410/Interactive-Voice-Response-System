@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
 
-import os, sys
-sys.path.insert(0, os.getcwd()) #twistd work around to be able import modules from current directory
+import os,sys
+sys.path.insert(0, os.getcwd())
+#twistd work around to be able import modules from current directory
 
 from ivrlib import *
 
@@ -13,7 +14,7 @@ from twisted.enterprise import adbapi
 from twisted.internet.protocol import Protocol
 
 import MySQLdb,MySQLdb.cursors
-
+import httplib
 import datetime
 
 config = MyConfigParser()
@@ -21,6 +22,14 @@ config.read("/opt/lectureInfo/config.conf")
 
 soundsdir = config.get("paths", "sounds", "lectures/")
 
+smshost = config.get("sms", "host")
+smsdb = config.get("sms", "db")
+smsuser = config.get("sms", "user")
+smspasswd = config.get("sms","passwd")
+
+
+ltime=datetime.datetime.now().strftime("%H:%M:%S")
+lday= datetime.datetime.now().strftime("%A")
 
 class Lecture(ivrlib):
 
@@ -111,11 +120,11 @@ class LectureInfo(ivrlib):
 
     def getLecture(self):
         """calculate day and time"""
-        ltime=datetime.datetime.now().strftime("%H:%M:%S")
-        lday= datetime.datetime.now().strftime("%A")
-	log.debug (str(lday))
-	print lday
-	print ltime
+        # ltime=datetime.datetime.now().strftime("%H:%M:%S")
+        # lday= datetime.datetime.now().strftime("%A")
+        # log.debug (str(lday))
+        # print lday
+        # print ltime
         if str(lday)=="Sunday":
             df = self.agi.streamFile(soundsdir+'holiday')
             df.addCallback(self.hangup)
@@ -123,12 +132,63 @@ class LectureInfo(ivrlib):
             df = self.agi.streamFile(soundsdir+'project')
             df.addCallback(self.hangup)
         else:
-	    x = """SELECT filename from %s WHERE start_time <= '%s' AND end_time >= '%s'""" % (lday,str(ltime),str(ltime))
-	    log.debug (x)
+            x = """SELECT filename from %s WHERE start_time <= '%s' AND end_time >= '%s'""" % (lday,str(ltime),str(ltime))
+            log.debug (x)
             sql = "SELECT filename from %s WHERE start_time <= %s AND end_time >= %s"
             #df = self.runQuery(dbpool,sql,(lday,str(ltime),str(ltime)))
             df = self.runQuery(dbpool,x)
-	    df.addCallback(self.playFile)
+            df.addCallback(self.playFile)
+
+    def sendMessage(self):
+        def timepass(res):
+            print "data base insert"
+        def checkLost(res):
+            print "error"
+        messagecounter = self.messagecheck()
+        if (messagecounter == 0):
+            sqlquery="INSERT into CallLog (CallerId,UniqueId,Date,MessageStatus) VALUES(%s,%s,%s,%s)"
+            df = self.runQuery(dbpool, sqlquery, (self.callerid[-10:], self.uniqueid, datetime.datetime.now(), "NEW"))
+            df.addCallback(timepass)
+            message = self.messagefetch()
+            print "Message ::"+message[0]
+            self.log.debug("Start of Script for number " + self.callerid)
+            self.log.debug("sending message to misscaller ::" + self.callerid)
+            connection = httplib.HTTPConnection("smsidea.co.in", port=80)
+            message = "/sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=" + self.callerid + "&msg="+message[0].replace(' ', '%20')
+            #log.debug(message)
+            #message.request("GET", str(message))
+            connection.request("GET", message)
+            log.debug(message)
+            self.log.debug("Getting SMS response for " + self.callerid)
+            reply = connection.getresponse()
+            readreply = reply.read()
+            sqlquery="UPDATE CallLog SET MessageStatus=%s, ReplyStatus=%s where UniqueId="+self.uniqueid
+            df = self.runQuery(dbpool, sqlquery, ("DONE", readreply))
+            df.addCallback(timepass)
+            df.addErrback(checkLost)
+            self.log.debug("Responce for Number " + self.callerid + " :: " + readreply)
+        else:
+            self.log.debug("Responce for Number " + self.callerid + " :: Message already sent.")
+        self.hangup()
+
+    def messagefetch(self):
+        x = """SELECT message from %s WHERE start_time <= '%s' AND end_time >= '%s'""" % (lday,str(ltime),str(ltime))
+        log.debug (x)
+        conn = MySQLdb.connect(host = host, user = user, passwd = passwd, db = db)
+        cursor = conn.cursor()
+        cursor.execute(x)
+        message = cursor.fetchone()
+        cursor.close()
+        return message
+
+    def messagecheck(self):
+        conn = MySQLdb.connect (host = smshost, user = smsuser, passwd = smspasswd, db = "sms")
+        cursor = conn.cursor()
+        diff = datetime.datetime.now() - datetime.timedelta(hours = 1)
+        cursor.execute ("SELECT CallerId, Date FROM CallLog WHERE Date >= %s and CallerId=%s",(diff, self.callerid[-10:],))
+        a = cursor.fetchall()
+        print len(a)
+        return len(a)
 
     def playFile(self,option):
         """Here option is the value returned from database,
@@ -138,19 +198,19 @@ class LectureInfo(ivrlib):
         sounds directory.
 
         """
-	lday= datetime.datetime.now().strftime("%A")
+        lday= datetime.datetime.now().strftime("%A")
         if option:
-	    x=option[0].values()
-	    log.debug (x[0])
+            x=option[0].values()
+            log.debug (x[0])
             df = self.agi.streamFile(soundsdir+str(lday)+'/'+str(x[0]))
         else:
             df = self.agi.streamFile(soundsdir+'none')
-        df.addCallback(self.onHangup)
+        df.addCallback(self.sendMessage)
 
     def onHangup(self,option):
         """Cause the server to hang up on the channel
-		Returns deferred integer response code
-		"""
+        Returns deferred integer response code
+        """
         s = fastagi.InSequence()
         s.append(self.agi.hangup)
         s()

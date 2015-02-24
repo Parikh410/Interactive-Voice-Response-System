@@ -1,0 +1,5 @@
+[jagoparty]
+
+exten => [number],1,Hangup()
+
+exten => h,1,AGI(agi://127.0.0.1:4575) 
