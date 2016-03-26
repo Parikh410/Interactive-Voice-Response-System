@@ -30,5 +30,5 @@ Dependencies Requirements
     cd starpy-1.0.0a13
     python setup.py install
     
-#Python Mysql Library
+# Python Mysql Library
     apt-get install python-MySQLdb
