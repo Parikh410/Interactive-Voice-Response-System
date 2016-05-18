@@ -60,10 +60,10 @@ class Lecture(ivrlib):
         else:
             self.welcome()
 
-    def collectEnroll(self):
+    def collectEnroll(self,option):
         if self.entries < 3:
             co = CollectOption(self.agi)
-            co.maxDigits = 10
+            co.maxDigits = 12
             co.prompt = soundsdir + 'please-enter'
             df = co()
             df.addCallback(self.verifyenroll)
@@ -72,7 +72,7 @@ class Lecture(ivrlib):
             df.addCallback(self.hangup)
 
     def verifyenroll(self,option):
-        if len(option) != 10:
+        if len(option) != 12:
             self.entries = +1
             self.collectEnroll()
         else:
@@ -199,8 +199,9 @@ class LectureInfo(ivrlib):
         else:
             path = '/var/spool/asterisk/outgoing/91%s.call' % self.callerid[-10:]
             file = open(path,'w')
-            file.write('Channel: Local/%s@a1routes\nMaxRetries: 2\nCallerid: +918469285679\nRetryTime: 2\nWaitTime: 45\nContext: %senroll\nExtension: 123\nPriority: 1\nArchive: yes' % (self.callerid[-10:],self.agi.lang))
+            file.write('Channel: Local/91%s@a1routes\nMaxRetries: 2\nCallerid: +918469285679\nRetryTime: 2\nWaitTime: 45\nContext: %senroll\nExtension: 123\nPriority: 1\nArchive: yes' % (self.callerid[-10:],self.agi.lang))
             file.close()
+            self.hangup()
 
     def subMenu(self):
         co = CollectOption(self.agi)
@@ -266,10 +267,10 @@ class LectureInfo(ivrlib):
         if self.agi.attendance < '35':
             self.agi.message="You need to atten more lectures, Your attendance is %s" % self.agi.attendance
             s = fastagi.InSequence()
-            s.append(self.agi.streamFile,soundsdir+'low-attendance')
             s.append(self.agi.streamFile,soundsdir+'your-attendance')
             s.append(self.agi.sayDigits, self.agi.attendance)
             s.append(self.agi.streamFile,soundsdir+'percentage')
+            s.append(self.agi.streamFile,soundsdir+'low-attendance')
             s().addCallbacks(self.sendMessage, self.hangup)
         else:
             self.agi.message="Your attendance is %s" % self.agi.attendance
@@ -353,13 +354,14 @@ class LectureInfo(ivrlib):
         reply = connection.getresponse()
         readreply = reply.read()
         log.debug("Response from operator is" + readreply)
-        df =defer.Deferred()
-        df.addCallback(self.sendMail)
-
+        df = self.agi.streamFile(soundsdir+'thankyou')
+        df.addCallback(self.getemail)
 
     def getemail(self,option):
+        self.hangup()
         log.debug("In get email function")
         sql = """SELECT * FROM students WHERE enrollment_number=%s"""
+        print "SELECT * FROM students WHERE enrollment_number=%s" % self.agi.enrollment
         df = dbpool.runQuery(sql, (self.agi.enrollment))
         df.addCallback(self.sendMail)
 
@@ -382,7 +384,7 @@ class LectureInfo(ivrlib):
         msg.attach(textmsg)
         msg = StringIO(msg.as_string())
         df = defer.Deferred()
-        df.addCallback(self.thankyou)
+        df.addCallback(self.hangup)
         f = ESMTPSenderFactory(mailuser, mailpasswd, frommail, self.agi.email, msg,  df, requireTransportSecurity=False,requireAuthentication=True)
         reactor.connectTCP(mailhost, mailport, f)
 
