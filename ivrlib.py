@@ -17,6 +17,7 @@ class ivrlib(TimeoutMixin):
     def __init__(self):
         self.callerid = self.agi.variables['agi_callerid']
         self.uniqueid = self.agi.variables["agi_uniqueid"]
+        self.context = self.agi.variables['context']
         self.setTimeout(1200)
 
     def initLogger(self):

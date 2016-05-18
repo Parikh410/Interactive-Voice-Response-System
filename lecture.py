@@ -1,15 +1,11 @@
 #!/usr/bin/python
 
-
 import os,sys
 sys.path.insert(0, os.getcwd())
-#twistd work around to be able import modules from current directory
 
 from ivrlib import *
-
 import logging
 import logging.handlers
-
 from twisted.enterprise import adbapi
 from twisted.internet.protocol import Protocol
 from email.mime.multipart import MIMEMultipart
@@ -33,9 +29,6 @@ smspasswd = config.get("sms","passwd")
 mailuser= "jay@lintelindia.com"
 mailpasswd = "jay@2829"
 mailhost = "smtp.lintelindia.com"
-#host = mail.lintelindia.com
-#host = 127.0.0.1
-#port = 25
 mailport = 587
 frommail= "jay@lintelindia.com"
 
@@ -53,8 +46,50 @@ class Lecture(ivrlib):
         self.initLogger()
         self.agi.onClose().addErrback(self.onHangup) #register a callback to clean up on Hangup.
         self.dbtries = 0
+        self.entries=0
         self.times = None
-        self.welcome()
+        self.checkenroll()
+
+    def checkenroll(self):
+        if self.context == 'enenroll':
+            self.agi.execute('Set', 'CHANNEL(language)=en').addCallbacks(self.collectEnroll, self.hangup)
+        if self.context == 'guenroll':
+            self.agi.execute('Set', 'CHANNEL(language)=de').addCallbacks(self.collectEnroll, self.hangup)
+        if self.context == 'hnenroll':
+            self.agi.execute('Set', 'CHANNEL(language)=fr').addCallbacks(self.collectEnroll, self.hangup)
+        else:
+            self.welcome()
+
+    def collectEnroll(self):
+        if self.entries < 3:
+            co = CollectOption(self.agi)
+            co.maxDigits = 10
+            co.prompt = soundsdir + 'please-enter'
+            df = co()
+            df.addCallback(self.verifyenroll)
+        else:
+            df = self.agi.streamFile(soundsdir+'sorry')
+            df.addCallback(self.hangup)
+
+    def verifyenroll(self,option):
+        if len(option) != 10:
+            self.entries = +1
+            self.collectEnroll()
+        else:
+            option = self.agi.enrollment
+            sql = """SELECT * FROM students WHERE enrollment_number=%s"""
+            df = dbpool.runQuery(sql,option)
+            df.addCallback(self.checkstudentdata)
+
+    def checkstudentdata(self,res):
+        if res:
+            sql = """INSERT INTO students (enrollment_number,mobile_number,indcn,infib,emdcn,emfib,attendance,exam,email) values(%s,%s,%s,%s,%s,%s,%s,%s,%s) """
+            df = dbpool.runQuery(sql, (self.agi.enrollment, res[0]['mobile_number'], res[0]['indcn'], res[0]['infib'],res[0]['emdcn'],res[0]['emfib'],res[0]['attendance'],res[0]['exam'],res[0]['email']))
+            df.addCallback(self.thankyoureg)
+
+    def thankyoureg(self):
+        df = self.agi.streamFile(soundsdir+'thankyou')
+        df.addCallback(self.hangup)
 
     def welcome(self):
         co = CollectOption(self.agi)
@@ -66,16 +101,16 @@ class Lecture(ivrlib):
     def setLanguage(self, option,res):
         print option
         if option == '3':
-            self.lang = "gujarati"
-            self.log.info("Caller chose malayam")
+            self.agi.lang = "gj"
+            self.log.info("Caller chose Gujarati")
             self.agi.execute('Set', 'CHANNEL(language)=de').addCallbacks(self.checkMainMenu, self.hangup)
         if option == '1':
-            self.lang = "english"
-            self.log.info("Caller chose english")
+            self.agi.lang = "en"
+            self.log.info("Caller chose English")
             self.agi.execute('Set', 'CHANNEL(language)=en').addCallbacks(self.checkMainMenu, self.hangup)
         if option == '2':
-            self.lang = 'hindi'
-            self.log.info("Caller chose hindi")
+            self.agi.lang = 'hn'
+            self.log.info("Caller chose Hindi")
             self.agi.execute('Set', "CHANNEL(language)=fr").addCallbacks(self.checkMainMenu, self.hangup)
 
     def checkMainMenu(self, option):
@@ -153,7 +188,7 @@ class LectureInfo(ivrlib):
     def CheckReg(self):
         self.log.debug(self.callerid)
         sql = """SELECT enrollment_number FROM students WHERE mobile_number=%s"""
-        df = dbpool.runQuery(sql, (self.callerid))
+        df = dbpool.runQuery(sql, (self.callerid[-10:]))
         df.addCallback(self.AskReg)
 
     def AskReg(self,res):
@@ -162,9 +197,10 @@ class LectureInfo(ivrlib):
             self.agi.enrollment = res[0]['enrollment_number']
             self.subMenu()
         else:
-            os.system('/home/call.py %s' % self.callerid)
-            df=self.agi.streamFile(soundsdir+'please-register')
-            df.addCallback(self.hangup)
+            path = '/var/spool/asterisk/outgoing/91%s.call' % self.callerid[-10:]
+            file = open(path,'w')
+            file.write('Channel: Local/%s@a1routes\nMaxRetries: 2\nCallerid: +918469285679\nRetryTime: 2\nWaitTime: 45\nContext: %senroll\nExtension: 123\nPriority: 1\nArchive: yes' % (self.callerid[-10:],self.agi.lang))
+            file.close()
 
     def subMenu(self):
         co = CollectOption(self.agi)
@@ -200,7 +236,7 @@ class LectureInfo(ivrlib):
         s.append(self.agi.sayDigits, self.agi.indcn)
         s.append(self.agi.streamFile, soundsdir+'fib')
         s.append(self.agi.sayDigits,self.agi.infib)
-        s().addCallbacks(self.getemail,self.hangup)
+        s().addCallbacks(self.sendMessage,self.hangup)
 
     def externalMarks(self):
         sql = """SELECT emdcn,emfib FROM students WHERE enrollment_number=%s"""
@@ -300,35 +336,14 @@ class LectureInfo(ivrlib):
         df = self.agi.streamFile(soundsdir+'thankyou')
         df.addCallback(self.hangup)
 
-    def getLecture(self):
-        """calculate day and time"""
-        # ltime=datetime.datetime.now().strftime("%H:%M:%S")
-        # lday= datetime.datetime.now().strftime("%A")
-        # log.debug (str(lday))
-        # print lday
-        # print ltime
-        if str(lday)=="Sunday":
-            df = self.agi.streamFile(soundsdir+'holiday')
-            df.addCallback(self.hangup)
-        if str(lday) == ["Monday", "Saturday"]:
-            df = self.agi.streamFile(soundsdir+'project')
-            df.addCallback(self.hangup)
-        else:
-            x = """SELECT filename from %s WHERE start_time <= '%s' AND end_time >= '%s'""" % (lday,str(ltime),str(ltime))
-            log.debug (x)
-            sql = "SELECT filename from %s WHERE start_time <= %s AND end_time >= %s"
-            #df = self.runQuery(dbpool,sql,(lday,str(ltime),str(ltime)))
-            df = self.runQuery(dbpool,x)
-            df.addCallback(self.playFile)
-
     def sendMessage(self,option):
         message = self.agi.message
         #message = self.messagefetch()
         print "Message ::"+message
         self.log.debug("Start of Script for number " + self.callerid)
-        self.log.debug("sending message to misscaller ::" + self.callerid)
+        self.log.debug("sending message to caller ::" + self.callerid)
         connection = httplib.HTTPConnection("smsidea.co.in", port=80)
-        message = "/sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=" + '9099081595' + "&msg="+message.replace(' ', '%20')
+        message = "/sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=" + self.callerid[-10:] + "&msg="+message.replace(' ', '%20')
         print message
         #log.debug(message)
         #message.request("GET", str(message))
@@ -338,8 +353,9 @@ class LectureInfo(ivrlib):
         reply = connection.getresponse()
         readreply = reply.read()
         log.debug("Response from operator is" + readreply)
-        df = self.agi.streamFile(soundsdir+'thankyou')
-        df.addCallback(self.hangup)
+        df =defer.Deferred()
+        df.addCallback(self.sendMail)
+
 
     def getemail(self,option):
         log.debug("In get email function")
@@ -366,7 +382,7 @@ class LectureInfo(ivrlib):
         msg.attach(textmsg)
         msg = StringIO(msg.as_string())
         df = defer.Deferred()
-        df.addCallback(self.sendMessage)
+        df.addCallback(self.thankyou)
         f = ESMTPSenderFactory(mailuser, mailpasswd, frommail, self.agi.email, msg,  df, requireTransportSecurity=False,requireAuthentication=True)
         reactor.connectTCP(mailhost, mailport, f)
 
