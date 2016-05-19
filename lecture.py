@@ -97,6 +97,11 @@ class Lecture(ivrlib):
             sql = """INSERT INTO students (enrollment_number,mobile_number,indcn,infib,emdcn,emfib,attendance,exam,email) values(%s,%s,%s,%s,%s,%s,%s,%s,%s) """
             df = dbpool.runQuery(sql, (str(self.agi.enrollment), str(self.callerid[-10:]),str( res[0]['indcn']), str(res[0]['infib']),str(res[0]['emdcn']),str(res[0]['emfib']),str(res[0]['attendance']),str(res[0]['exam']),res[0]['email']))
             df.addCallback(self.thankyoureg)
+        else:
+            self.entries = self.entries + 1
+            print self.entries
+            df = self.agi.streamFile(soundsdir+'sorry')
+            df.addCallback(self.collectEnroll)
 
     def thankyoureg(self,res):
         df = self.agi.streamFile(soundsdir+'thankyou')
