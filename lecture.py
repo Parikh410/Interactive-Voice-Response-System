@@ -42,56 +42,68 @@ class Lecture(ivrlib):
         """constructor for class Lecture"""
         self.agi = agi
         self.agi.status = "NEW"
+        self.context = self.agi.variables['agi_context']
         ivrlib.__init__(self)
         self.initLogger()
         self.agi.onClose().addErrback(self.onHangup) #register a callback to clean up on Hangup.
         self.dbtries = 0
         self.entries=0
+        self.agi.enrollment = "None"
         self.times = None
         self.checkenroll()
 
     def checkenroll(self):
+        print self.context
         if self.context == 'enenroll':
-            self.agi.execute('Set', 'CHANNEL(language)=en').addCallbacks(self.collectEnroll, self.hangup)
-        if self.context == 'guenroll':
-            self.agi.execute('Set', 'CHANNEL(language)=de').addCallbacks(self.collectEnroll, self.hangup)
-        if self.context == 'hnenroll':
-            self.agi.execute('Set', 'CHANNEL(language)=fr').addCallbacks(self.collectEnroll, self.hangup)
+            self.agi.execute('Set', 'CHANNEL(language)=en').addCallback(self.collectEnroll)
+        elif self.context == 'gjenroll':
+            self.agi.execute('Set', 'CHANNEL(language)=de').addCallback(self.collectEnroll)
+        elif self.context == 'hnenroll':
+            self.agi.execute('Set', 'CHANNEL(language)=fr').addCallback(self.collectEnroll)
         else:
             self.welcome()
 
-    def collectEnroll(self,option):
-        if self.entries < 3:
-            co = CollectOption(self.agi)
-            co.maxDigits = 12
-            co.prompt = soundsdir + 'please-enter'
-            df = co()
-            df.addCallback(self.verifyenroll)
-        else:
-            df = self.agi.streamFile(soundsdir+'sorry')
-            df.addCallback(self.hangup)
+    def collectEnroll(self,res):
+        print ("In Collect Enroll function")
+        cd = CollectDigits(self.agi)
+        cd.maxDigits = 12
+        cd.prompt = soundsdir + 'please-enter'
+        df = cd()
+        df.addCallback(self.verifyenroll)
 
     def verifyenroll(self,option):
-        if len(option) != 12:
-            self.entries = +1
-            self.collectEnroll()
-        else:
-            option = self.agi.enrollment
+        self.agi.enrollment = option
+        print self.entries
+        if len(str(self.agi.enrollment)) == 12:
+            s = fastagi.InSequence()
+            s.append(self.agi.sayDigits, option)
+            s().addCallback(self.checkstudentdata)
             sql = """SELECT * FROM students WHERE enrollment_number=%s"""
-            df = dbpool.runQuery(sql,option)
+            print sql % str(option)
+            df = dbpool.runQuery(sql,self.agi.enrollment)
             df.addCallback(self.checkstudentdata)
+        elif self.entries < 2:
+            self.entries = self.entries + 1
+            print self.entries
+            df = self.agi.streamFile(soundsdir+'sorry')
+            df.addCallback(self.collectEnroll)
+        else:
+            df =self.agi.streamFile(soundsdir+'thankyou')
+            df.addCallback(self.hangup)
 
     def checkstudentdata(self,res):
         if res:
+            print res
             sql = """INSERT INTO students (enrollment_number,mobile_number,indcn,infib,emdcn,emfib,attendance,exam,email) values(%s,%s,%s,%s,%s,%s,%s,%s,%s) """
-            df = dbpool.runQuery(sql, (self.agi.enrollment, res[0]['mobile_number'], res[0]['indcn'], res[0]['infib'],res[0]['emdcn'],res[0]['emfib'],res[0]['attendance'],res[0]['exam'],res[0]['email']))
+            df = dbpool.runQuery(sql, (str(self.agi.enrollment), str(self.callerid[-10:]),str( res[0]['indcn']), str(res[0]['infib']),str(res[0]['emdcn']),str(res[0]['emfib']),str(res[0]['attendance']),str(res[0]['exam']),res[0]['email']))
             df.addCallback(self.thankyoureg)
 
-    def thankyoureg(self):
+    def thankyoureg(self,res):
         df = self.agi.streamFile(soundsdir+'thankyou')
         df.addCallback(self.hangup)
 
     def welcome(self):
+        print ("In Welcome function")
         co = CollectOption(self.agi)
         co.prompt = soundsdir+"welcome"
         co.options = '123'
@@ -201,7 +213,9 @@ class LectureInfo(ivrlib):
             file = open(path,'w')
             file.write('Channel: Local/91%s@a1routes\nMaxRetries: 2\nCallerid: +918469285679\nRetryTime: 2\nWaitTime: 45\nContext: %senroll\nExtension: 123\nPriority: 1\nArchive: yes' % (self.callerid[-10:],self.agi.lang))
             file.close()
-            self.hangup()
+            df = self.agi.streamFile(soundsdir+'please-register')
+            df.addCallback(self.thankyou)
+
 
     def subMenu(self):
         co = CollectOption(self.agi)
