@@ -1,647 +1,622 @@
-2015-02-06 15:36:24,426-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:36:24,426-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:36:24,426-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:36:24,426-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:36:24,426-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:36:24,426-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:36:24,426-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:36:24,426-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:36:24,427-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:36:26,787-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:36:26,787-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:36:26,787-ivrlib-DEBUG : Friday
-2015-02-06 15:36:26,798-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:36:51,340-FastAGI-INFO : Connection terminated
-2015-02-06 15:36:51,340-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:37:23,791-FastAGI-INFO : New Connection
-2015-02-06 15:37:23,791-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:37:23,791-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:37:23,791-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000010'
-2015-02-06 15:37:23,791-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:37:23,791-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:37:23,791-FastAGI-INFO : agi_uniqueid = '1423217243.16'
-2015-02-06 15:37:23,791-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:37:23,792-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:37:23,793-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:37:26,153-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:37:26,153-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:37:26,153-ivrlib-DEBUG : Friday
-2015-02-06 15:37:26,163-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:37:41,094-FastAGI-INFO : Connection terminated
-2015-02-06 15:37:41,094-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:38:12,701-FastAGI-INFO : New Connection
-2015-02-06 15:38:12,701-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:38:12,701-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:38:12,701-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000011'
-2015-02-06 15:38:12,701-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:38:12,701-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_uniqueid = '1423217292.17'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:38:12,702-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:38:12,703-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:38:12,703-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:38:15,063-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:38:15,063-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:38:15,064-ivrlib-DEBUG : Friday
-2015-02-06 15:38:15,073-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:38:19,750-FastAGI-INFO : Connection terminated
-2015-02-06 15:38:19,750-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:40:51,947-FastAGI-INFO : New Connection
-2015-02-06 15:40:51,947-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:40:51,947-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:40:51,947-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000012'
-2015-02-06 15:40:51,947-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:40:51,947-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_uniqueid = '1423217451.18'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:40:51,948-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:40:51,949-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:40:51,949-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:40:54,309-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:40:54,309-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:40:54,310-ivrlib-DEBUG : Friday
-2015-02-06 15:40:54,310-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= 15:40:54 AND end_time >= 15:40:54
-2015-02-06 15:40:54,320-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:40:54,320-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/none '' 0"
-2015-02-06 15:41:09,441-FastAGI-INFO : Connection terminated
-2015-02-06 15:41:09,442-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:43:16,748-FastAGI-INFO : New Connection
-2015-02-06 15:43:16,749-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:43:16,749-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:43:16,749-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000013'
-2015-02-06 15:43:16,749-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:43:16,749-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:43:16,749-FastAGI-INFO : agi_uniqueid = '1423217596.19'
-2015-02-06 15:43:16,749-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:43:16,749-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:43:16,750-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:43:16,750-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:43:16,750-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:43:16,750-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:43:16,750-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:43:16,750-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:43:16,750-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:43:16,750-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:43:16,751-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:43:16,751-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:43:16,751-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:43:16,751-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:43:19,112-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:43:19,112-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:43:19,112-ivrlib-DEBUG : Friday
-2015-02-06 15:43:19,122-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:43:26,884-FastAGI-INFO : Connection terminated
-2015-02-06 15:43:26,885-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:46:47,726-FastAGI-INFO : New Connection
-2015-02-06 15:46:47,726-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:46:47,726-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000014'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_uniqueid = '1423217807.20'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:46:47,727-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:46:47,728-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:46:47,728-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:46:47,728-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:46:47,728-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:46:50,088-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:46:50,088-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:46:50,089-ivrlib-DEBUG : Friday
-2015-02-06 15:46:50,098-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:46:54,421-FastAGI-INFO : Connection terminated
-2015-02-06 15:46:54,422-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:47:59,534-FastAGI-INFO : New Connection
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000015'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_uniqueid = '1423217879.21'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:47:59,535-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:47:59,536-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:47:59,536-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:47:59,536-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:47:59,536-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:47:59,536-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:47:59,536-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:47:59,536-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:47:59,536-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:48:01,896-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:48:01,897-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:48:01,897-ivrlib-DEBUG : Friday
-2015-02-06 15:48:01,897-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= 15:48:01 AND end_time >= 15:48:01
-2015-02-06 15:48:01,907-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:48:18,070-FastAGI-INFO : Connection terminated
-2015-02-06 15:48:18,070-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:50:19,583-FastAGI-INFO : New Connection
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000016'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_uniqueid = '1423218019.22'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:50:19,584-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:50:19,585-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:50:19,585-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:50:19,585-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:50:19,585-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:50:19,585-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:50:19,585-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:50:19,585-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:50:19,585-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:50:19,585-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:50:21,945-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:50:21,945-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:50:21,946-ivrlib-DEBUG : Friday
-2015-02-06 15:50:21,946-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '15:50:21' AND end_time >= '15:50:21'
-2015-02-06 15:50:21,956-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:50:21,956-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/none '' 0"
-2015-02-06 15:50:25,278-FastAGI-INFO : Connection terminated
-2015-02-06 15:50:25,278-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:52:32,361-FastAGI-INFO : New Connection
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000017'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_uniqueid = '1423218152.23'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:52:32,362-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:52:32,363-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:52:32,363-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:52:32,363-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:52:32,363-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:52:32,363-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:52:32,363-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:52:32,363-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:52:32,363-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:52:32,363-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:52:34,723-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:52:34,724-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:52:34,724-ivrlib-DEBUG : Friday
-2015-02-06 15:52:34,724-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '15:52:34' AND end_time >= '15:52:34'
-2015-02-06 15:52:34,725-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:52:48,363-FastAGI-INFO : Connection terminated
-2015-02-06 15:52:48,364-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:53:29,735-FastAGI-INFO : New Connection
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000018'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_uniqueid = '1423218209.24'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:53:29,736-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:53:29,737-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:53:29,737-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:53:32,097-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:53:32,098-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:53:32,098-ivrlib-DEBUG : Friday
-2015-02-06 15:53:32,098-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '15:53:32' AND end_time >= '15:53:32'
-2015-02-06 15:53:32,108-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:53:32,109-ivrlib-DEBUG : ({'filename': '315'}, {'filename': '315'})
-2015-02-06 15:53:32,109-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/({'filename': '315'}, {'filename': '315'}) '' 0"
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: ' Usage: STREAM FILE <filename> <escape digits> [sample offset]'
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: '\tSend the given file, allowing playback to be interrupted by the given'
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: ' digits, if any. Use double quotes for the digits if you wish none to be'
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: ' permitted. If sample offset is provided then the audio will seek to sample'
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: ' offset before play starts.  Returns 0 if playback completes without a digit'
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: ' being pressed, or the ASCII numerical value of the digit if one was pressed,'
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: ' or -1 on error or if the channel was disconnected. Remember, the file'
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: ' extension must not be included in the filename.'
-2015-02-06 15:53:32,149-FastAGI-WARNING : Line received without pending deferred: '520 End of proper usage.'
-2015-02-06 15:54:30,841-FastAGI-INFO : Connection terminated
-2015-02-06 15:54:30,841-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 15:56:46,543-FastAGI-INFO : New Connection
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000019'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_language = 'en'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_uniqueid = '1423218406.25'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 15:56:46,544-FastAGI-INFO : agi_callington = '0'
-2015-02-06 15:56:46,545-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 15:56:46,545-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 15:56:46,545-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 15:56:46,545-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 15:56:46,545-FastAGI-INFO : agi_extension = '123'
-2015-02-06 15:56:46,545-FastAGI-INFO : agi_priority = '1'
-2015-02-06 15:56:46,545-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 15:56:46,545-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 15:56:46,545-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 15:56:48,906-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 15:56:48,906-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 15:56:48,907-ivrlib-DEBUG : Friday
-2015-02-06 15:56:48,907-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '15:56:48' AND end_time >= '15:56:48'
-2015-02-06 15:56:48,917-ivrlib-DEBUG : Connected to DB 
-2015-02-06 15:56:48,918-ivrlib-DEBUG : {'filename': '315'}
-2015-02-06 15:56:48,918-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/({'filename': '315'}, {'filename': '315'}) '' 0"
-2015-02-06 15:56:48,957-FastAGI-WARNING : Line received without pending deferred: ' Usage: STREAM FILE <filename> <escape digits> [sample offset]'
-2015-02-06 15:56:48,957-FastAGI-WARNING : Line received without pending deferred: '\tSend the given file, allowing playback to be interrupted by the given'
-2015-02-06 15:56:48,957-FastAGI-WARNING : Line received without pending deferred: ' digits, if any. Use double quotes for the digits if you wish none to be'
-2015-02-06 15:56:48,957-FastAGI-WARNING : Line received without pending deferred: ' permitted. If sample offset is provided then the audio will seek to sample'
-2015-02-06 15:56:48,957-FastAGI-WARNING : Line received without pending deferred: ' offset before play starts.  Returns 0 if playback completes without a digit'
-2015-02-06 15:56:48,957-FastAGI-WARNING : Line received without pending deferred: ' being pressed, or the ASCII numerical value of the digit if one was pressed,'
-2015-02-06 15:56:48,957-FastAGI-WARNING : Line received without pending deferred: ' or -1 on error or if the channel was disconnected. Remember, the file'
-2015-02-06 15:56:48,957-FastAGI-WARNING : Line received without pending deferred: ' extension must not be included in the filename.'
-2015-02-06 15:56:48,958-FastAGI-WARNING : Line received without pending deferred: '520 End of proper usage.'
-2015-02-06 15:56:53,015-FastAGI-INFO : Connection terminated
-2015-02-06 15:56:53,015-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:01:11,155-FastAGI-INFO : New Connection
-2015-02-06 16:01:11,155-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:01:11,155-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-0000001a'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_uniqueid = '1423218671.26'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:01:11,156-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:01:11,157-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:01:11,157-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:01:11,157-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:01:11,157-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:01:13,517-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:01:13,517-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:01:13,518-ivrlib-DEBUG : Friday
-2015-02-06 16:01:13,518-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:01:13' AND end_time >= '16:01:13'
-2015-02-06 16:01:13,528-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:01:41,265-FastAGI-INFO : Connection terminated
-2015-02-06 16:01:41,265-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:03:08,594-FastAGI-INFO : New Connection
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-0000001b'
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_uniqueid = '1423218788.27'
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:03:08,594-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:03:08,595-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:03:08,595-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:03:10,956-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:03:10,956-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:03:10,956-ivrlib-DEBUG : Friday
-2015-02-06 16:03:10,956-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:03:10' AND end_time >= '16:03:10'
-2015-02-06 16:03:10,957-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:03:15,908-FastAGI-INFO : Connection terminated
-2015-02-06 16:03:15,908-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:03:44,746-FastAGI-INFO : New Connection
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-0000001c'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_uniqueid = '1423218824.28'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:03:44,747-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:03:44,748-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:03:44,748-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:03:44,748-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:03:44,748-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:03:44,748-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:03:44,748-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:03:44,748-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:03:44,748-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:03:44,748-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:03:47,108-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:03:47,109-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:03:47,109-ivrlib-DEBUG : Friday
-2015-02-06 16:03:47,109-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:03:47' AND end_time >= '16:03:47'
-2015-02-06 16:03:47,119-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:03:47,119-ivrlib-DEBUG : ({'filename': '315'},)
-2015-02-06 16:04:45,853-FastAGI-INFO : Connection terminated
-2015-02-06 16:04:45,853-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:05:39,422-FastAGI-INFO : New Connection
-2015-02-06 16:05:39,422-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:05:39,422-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-0000001d'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_uniqueid = '1423218939.29'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:05:39,423-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:05:39,424-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:05:39,424-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:05:39,424-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:05:39,424-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:05:39,424-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:05:39,424-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:05:39,424-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:05:39,424-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:05:41,785-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:05:41,785-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:05:41,785-ivrlib-DEBUG : Friday
-2015-02-06 16:05:41,786-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:05:41' AND end_time >= '16:05:41'
-2015-02-06 16:05:41,795-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:05:41,796-ivrlib-DEBUG : ({'filename': '315'},)
-2015-02-06 16:05:41,796-ivrlib-DEBUG : {'filename': '315'}
-2015-02-06 16:05:41,796-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/({'filename': '315'},) '' 0"
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: ' Usage: STREAM FILE <filename> <escape digits> [sample offset]'
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: '\tSend the given file, allowing playback to be interrupted by the given'
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: ' digits, if any. Use double quotes for the digits if you wish none to be'
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: ' permitted. If sample offset is provided then the audio will seek to sample'
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: ' offset before play starts.  Returns 0 if playback completes without a digit'
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: ' being pressed, or the ASCII numerical value of the digit if one was pressed,'
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: ' or -1 on error or if the channel was disconnected. Remember, the file'
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: ' extension must not be included in the filename.'
-2015-02-06 16:05:41,833-FastAGI-WARNING : Line received without pending deferred: '520 End of proper usage.'
-2015-02-06 16:05:48,415-FastAGI-INFO : Connection terminated
-2015-02-06 16:05:48,415-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:12:04,568-FastAGI-INFO : New Connection
-2015-02-06 16:12:04,568-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:12:04,568-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:12:04,568-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-0000001e'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_uniqueid = '1423219324.30'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:12:04,569-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:12:04,570-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:12:04,570-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:12:04,570-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:12:04,570-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:12:06,930-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:12:06,931-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:12:06,931-ivrlib-DEBUG : Friday
-2015-02-06 16:12:06,931-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:12:06' AND end_time >= '16:12:06'
-2015-02-06 16:12:06,941-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:12:11,137-FastAGI-INFO : Connection terminated
-2015-02-06 16:12:11,137-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:13:01,785-FastAGI-INFO : New Connection
-2015-02-06 16:13:01,785-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:13:01,785-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:13:01,785-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-0000001f'
-2015-02-06 16:13:01,785-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_uniqueid = '1423219381.31'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:13:01,786-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:13:01,787-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:13:01,787-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:13:01,787-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:13:04,146-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:13:04,147-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:13:04,147-ivrlib-DEBUG : Friday
-2015-02-06 16:13:04,147-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:13:04' AND end_time >= '16:13:04'
-2015-02-06 16:13:04,156-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:13:08,682-FastAGI-INFO : Connection terminated
-2015-02-06 16:13:08,682-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:13:54,764-FastAGI-INFO : New Connection
-2015-02-06 16:13:54,764-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:13:54,764-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:13:54,764-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000020'
-2015-02-06 16:13:54,764-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_uniqueid = '1423219434.32'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:13:54,765-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:13:54,766-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:13:54,766-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:13:57,126-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:13:57,126-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:13:57,126-ivrlib-DEBUG : Friday
-2015-02-06 16:13:57,127-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:13:57' AND end_time >= '16:13:57'
-2015-02-06 16:13:57,136-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:13:57,137-ivrlib-DEBUG : ['315']
-2015-02-06 16:13:57,137-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/['315'] '' 0"
-2015-02-06 16:14:12,198-FastAGI-INFO : Connection terminated
-2015-02-06 16:14:12,198-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:15:56,895-FastAGI-INFO : New Connection
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000021'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_uniqueid = '1423219556.33'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:15:56,896-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:15:56,897-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:15:56,897-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:15:59,258-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:15:59,258-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:15:59,258-ivrlib-DEBUG : Friday
-2015-02-06 16:15:59,259-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:15:59' AND end_time >= '16:15:59'
-2015-02-06 16:15:59,269-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:15:59,269-ivrlib-DEBUG : 315
-2015-02-06 16:15:59,270-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/Friday['315'] '' 0"
-2015-02-06 16:16:03,040-FastAGI-INFO : Connection terminated
-2015-02-06 16:16:03,040-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:16:49,804-FastAGI-INFO : New Connection
-2015-02-06 16:16:49,804-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:16:49,804-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:16:49,804-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000022'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_uniqueid = '1423219609.34'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:16:49,805-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:16:49,806-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:16:49,806-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:16:49,806-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:16:49,806-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:16:52,166-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:16:52,166-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:16:52,166-ivrlib-DEBUG : Friday
-2015-02-06 16:16:52,167-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:16:52' AND end_time >= '16:16:52'
-2015-02-06 16:16:52,176-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:16:52,177-ivrlib-DEBUG : 315
-2015-02-06 16:16:52,177-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/Friday/315 '' 0"
-2015-02-06 16:17:50,918-FastAGI-INFO : Connection terminated
-2015-02-06 16:17:50,918-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:23:21,326-FastAGI-INFO : New Connection
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000023'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_uniqueid = '1423220001.35'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:23:21,327-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:23:21,328-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:23:21,328-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:23:21,328-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:23:21,328-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:23:21,328-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:23:21,328-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:23:21,328-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:23:21,328-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:23:23,688-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:23:23,689-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:23:23,689-ivrlib-DEBUG : Friday
-2015-02-06 16:23:23,689-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:23:23' AND end_time >= '16:23:23'
-2015-02-06 16:23:23,690-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:23:23,691-ivrlib-DEBUG : 315
-2015-02-06 16:23:23,691-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/Friday/315 '' 0"
-2015-02-06 16:23:30,927-FastAGI-INFO : Connection terminated
-2015-02-06 16:23:30,927-Lecture:+917405091551-DEBUG : Call hungup cleaning up
-2015-02-06 16:24:11,545-FastAGI-INFO : New Connection
-2015-02-06 16:24:11,545-FastAGI-INFO : agi_network = 'yes'
-2015-02-06 16:24:11,545-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_channel = 'SIP/192.168.1.40-00000024'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_language = 'en'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_type = 'SIP'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_uniqueid = '1423220051.36'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_callerid = '+917405091551'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_calleridname = 'unknown'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_callingpres = '0'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_callingani2 = '0'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_callington = '0'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_callingtns = '0'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_dnid = '123'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_rdnis = 'unknown'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_context = 'pri'
-2015-02-06 16:24:11,546-FastAGI-INFO : agi_extension = '123'
-2015-02-06 16:24:11,547-FastAGI-INFO : agi_priority = '1'
-2015-02-06 16:24:11,547-FastAGI-INFO : agi_enhanced = '0.0'
-2015-02-06 16:24:11,547-FastAGI-INFO : agi_accountcode = ''
-2015-02-06 16:24:11,547-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/welcome '' 0"
-2015-02-06 16:24:13,907-Lecture:+917405091551-INFO : Caller chose english
-2015-02-06 16:24:13,908-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
-2015-02-06 16:24:13,908-ivrlib-DEBUG : Friday
-2015-02-06 16:24:13,908-ivrlib-DEBUG : SELECT filename from Friday WHERE start_time <= '16:24:13' AND end_time >= '16:24:13'
-2015-02-06 16:24:13,909-ivrlib-DEBUG : Connected to DB 
-2015-02-06 16:24:13,910-ivrlib-DEBUG : 315
-2015-02-06 16:24:13,910-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureInfo/sounds/Friday/315 '' 0"
-2015-02-06 16:24:24,290-FastAGI-INFO : Send Command: 'HANGUP'
-2015-02-06 16:24:24,291-FastAGI-INFO : Connection terminated
-2015-02-06 16:24:24,291-Lecture:+917405091551-DEBUG : Call hungup cleaning up
+2016-05-20 21:38:16,720-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-20 21:38:22,536-FastAGI-INFO : Connection terminated
+2016-05-20 21:38:22,536-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-20 21:38:22,536-CeraIVR:9687138391-DEBUG : Call hangup cleaning up
+2016-05-20 21:38:59,227-FastAGI-INFO : New Connection
+2016-05-20 21:38:59,227-FastAGI-INFO : agi_network = 'yes'
+2016-05-20 21:38:59,228-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-20 21:38:59,228-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-0000003f'
+2016-05-20 21:38:59,229-FastAGI-INFO : agi_language = 'en'
+2016-05-20 21:38:59,229-FastAGI-INFO : agi_type = 'SIP'
+2016-05-20 21:38:59,230-FastAGI-INFO : agi_uniqueid = '1463760539.103'
+2016-05-20 21:38:59,230-FastAGI-INFO : agi_callerid = '9428602674'
+2016-05-20 21:38:59,231-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-20 21:38:59,231-FastAGI-INFO : agi_callingpres = '0'
+2016-05-20 21:38:59,231-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-20 21:38:59,232-FastAGI-INFO : agi_callington = '0'
+2016-05-20 21:38:59,236-FastAGI-INFO : agi_callingtns = '0'
+2016-05-20 21:38:59,236-FastAGI-INFO : agi_dnid = '123'
+2016-05-20 21:38:59,237-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-20 21:38:59,237-FastAGI-INFO : agi_context = 'matrix'
+2016-05-20 21:38:59,237-FastAGI-INFO : agi_extension = '123'
+2016-05-20 21:38:59,238-FastAGI-INFO : agi_priority = '4'
+2016-05-20 21:38:59,238-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-20 21:38:59,238-FastAGI-INFO : agi_accountcode = ''
+2016-05-20 21:38:59,239-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-20 21:39:03,205-CeraIVR:9428602674-INFO : Caller chose Hindi
+2016-05-20 21:39:03,205-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=fr"'
+2016-05-20 21:39:03,206-CeraIVR:9428602674-DEBUG : 9428602674
+2016-05-20 21:39:03,227-ivrlib-DEBUG : Connected to DB 
+2016-05-20 21:39:03,229-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/please-register '' 0"
+2016-05-20 21:39:08,467-FastAGI-INFO : Connection terminated
+2016-05-20 21:39:08,467-CeraIVR:9428602674-DEBUG : Call hangup cleaning up
+2016-05-20 21:39:31,729-FastAGI-INFO : New Connection
+2016-05-20 21:39:31,730-FastAGI-INFO : agi_network = 'yes'
+2016-05-20 21:39:31,730-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-20 21:39:31,731-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000040'
+2016-05-20 21:39:31,731-FastAGI-INFO : agi_language = 'en'
+2016-05-20 21:39:31,731-FastAGI-INFO : agi_type = 'SIP'
+2016-05-20 21:39:31,732-FastAGI-INFO : agi_uniqueid = '1463760543.104'
+2016-05-20 21:39:31,732-FastAGI-INFO : agi_callerid = '919428602674'
+2016-05-20 21:39:31,733-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-20 21:39:31,734-FastAGI-INFO : agi_callingpres = '0'
+2016-05-20 21:39:31,734-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-20 21:39:31,735-FastAGI-INFO : agi_callington = '0'
+2016-05-20 21:39:31,735-FastAGI-INFO : agi_callingtns = '0'
+2016-05-20 21:39:31,735-FastAGI-INFO : agi_dnid = 'unknown'
+2016-05-20 21:39:31,736-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-20 21:39:31,736-FastAGI-INFO : agi_context = 'hnenroll'
+2016-05-20 21:39:31,736-FastAGI-INFO : agi_extension = '123'
+2016-05-20 21:39:31,740-FastAGI-INFO : agi_priority = '2'
+2016-05-20 21:39:31,741-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-20 21:39:31,742-FastAGI-INFO : agi_accountcode = ''
+2016-05-20 21:39:31,743-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=fr"'
+2016-05-20 21:39:31,747-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-20 21:39:44,371-FastAGI-INFO : Send Command: "SAY DIGITS 120326461332 ''"
+2016-05-20 21:39:44,372-ivrlib-DEBUG : Connected to DB 
+2016-05-20 21:39:44,374-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-20 21:39:52,190-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-20 21:39:52,191-FastAGI-INFO : Connection terminated
+2016-05-20 21:39:52,192-CeraIVR:919428602674-DEBUG : Call hangup cleaning up
+2016-05-20 21:40:56,915-FastAGI-INFO : New Connection
+2016-05-20 21:40:56,916-FastAGI-INFO : agi_network = 'yes'
+2016-05-20 21:40:56,920-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-20 21:40:56,921-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000042'
+2016-05-20 21:40:56,921-FastAGI-INFO : agi_language = 'en'
+2016-05-20 21:40:56,922-FastAGI-INFO : agi_type = 'SIP'
+2016-05-20 21:40:56,922-FastAGI-INFO : agi_uniqueid = '1463760656.108'
+2016-05-20 21:40:56,922-FastAGI-INFO : agi_callerid = '9687138391'
+2016-05-20 21:40:56,923-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-20 21:40:56,924-FastAGI-INFO : agi_callingpres = '0'
+2016-05-20 21:40:56,924-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-20 21:40:56,925-FastAGI-INFO : agi_callington = '0'
+2016-05-20 21:40:56,925-FastAGI-INFO : agi_callingtns = '0'
+2016-05-20 21:40:56,926-FastAGI-INFO : agi_dnid = '123'
+2016-05-20 21:40:56,926-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-20 21:40:56,927-FastAGI-INFO : agi_context = 'matrix'
+2016-05-20 21:40:56,932-FastAGI-INFO : agi_extension = '123'
+2016-05-20 21:40:56,932-FastAGI-INFO : agi_priority = '4'
+2016-05-20 21:40:56,933-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-20 21:40:56,933-FastAGI-INFO : agi_accountcode = ''
+2016-05-20 21:40:56,935-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-20 21:41:01,983-CeraIVR:9687138391-INFO : Caller chose Gujarati
+2016-05-20 21:41:01,983-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=de"'
+2016-05-20 21:41:01,984-CeraIVR:9687138391-DEBUG : 9687138391
+2016-05-20 21:41:02,005-ivrlib-DEBUG : Connected to DB 
+2016-05-20 21:41:02,007-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/please-register '' 0"
+2016-05-20 21:41:07,911-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-20 21:41:10,415-FastAGI-INFO : Connection terminated
+2016-05-20 21:41:10,416-CeraIVR:9687138391-DEBUG : Call hangup cleaning up
+2016-05-20 21:41:31,074-FastAGI-INFO : New Connection
+2016-05-20 21:41:31,075-FastAGI-INFO : agi_network = 'yes'
+2016-05-20 21:41:31,076-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-20 21:41:31,076-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000043'
+2016-05-20 21:41:31,077-FastAGI-INFO : agi_language = 'en'
+2016-05-20 21:41:31,077-FastAGI-INFO : agi_type = 'SIP'
+2016-05-20 21:41:31,078-FastAGI-INFO : agi_uniqueid = '1463760662.109'
+2016-05-20 21:41:31,078-FastAGI-INFO : agi_callerid = '919687138391'
+2016-05-20 21:41:31,079-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-20 21:41:31,079-FastAGI-INFO : agi_callingpres = '0'
+2016-05-20 21:41:31,081-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-20 21:41:31,082-FastAGI-INFO : agi_callington = '0'
+2016-05-20 21:41:31,082-FastAGI-INFO : agi_callingtns = '0'
+2016-05-20 21:41:31,083-FastAGI-INFO : agi_dnid = 'unknown'
+2016-05-20 21:41:31,083-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-20 21:41:31,084-FastAGI-INFO : agi_context = 'gjenroll'
+2016-05-20 21:41:31,084-FastAGI-INFO : agi_extension = '123'
+2016-05-20 21:41:31,085-FastAGI-INFO : agi_priority = '2'
+2016-05-20 21:41:31,086-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-20 21:41:31,086-FastAGI-INFO : agi_accountcode = ''
+2016-05-20 21:41:31,092-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=de"'
+2016-05-20 21:41:31,102-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-20 21:41:35,929-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-20 21:41:46,888-FastAGI-INFO : Send Command: "SAY DIGITS 120320698563 ''"
+2016-05-20 21:41:46,889-ivrlib-DEBUG : Connected to DB 
+2016-05-20 21:41:46,891-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-20 21:41:55,007-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-20 21:41:55,008-FastAGI-INFO : Connection terminated
+2016-05-20 21:41:55,008-CeraIVR:919687138391-DEBUG : Call hangup cleaning up
+2016-05-20 21:42:12,207-FastAGI-INFO : New Connection
+2016-05-20 21:42:12,208-FastAGI-INFO : agi_network = 'yes'
+2016-05-20 21:42:12,208-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-20 21:42:12,208-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000044'
+2016-05-20 21:42:12,209-FastAGI-INFO : agi_language = 'en'
+2016-05-20 21:42:12,210-FastAGI-INFO : agi_type = 'SIP'
+2016-05-20 21:42:12,210-FastAGI-INFO : agi_uniqueid = '1463760732.112'
+2016-05-20 21:42:12,211-FastAGI-INFO : agi_callerid = '9687138391'
+2016-05-20 21:42:12,211-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-20 21:42:12,212-FastAGI-INFO : agi_callingpres = '0'
+2016-05-20 21:42:12,212-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-20 21:42:12,213-FastAGI-INFO : agi_callington = '0'
+2016-05-20 21:42:12,213-FastAGI-INFO : agi_callingtns = '0'
+2016-05-20 21:42:12,214-FastAGI-INFO : agi_dnid = '123'
+2016-05-20 21:42:12,214-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-20 21:42:12,214-FastAGI-INFO : agi_context = 'matrix'
+2016-05-20 21:42:12,214-FastAGI-INFO : agi_extension = '123'
+2016-05-20 21:42:12,215-FastAGI-INFO : agi_priority = '4'
+2016-05-20 21:42:12,217-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-20 21:42:12,217-FastAGI-INFO : agi_accountcode = ''
+2016-05-20 21:42:12,226-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-20 21:42:17,195-CeraIVR:9687138391-INFO : Caller chose Gujarati
+2016-05-20 21:42:17,196-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=de"'
+2016-05-20 21:42:17,196-CeraIVR:9687138391-DEBUG : 9687138391
+2016-05-20 21:42:17,198-ivrlib-DEBUG : Connected to DB 
+2016-05-20 21:42:17,199-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/please-register '' 0"
+2016-05-20 21:42:23,104-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-20 21:42:24,064-FastAGI-INFO : Connection terminated
+2016-05-20 21:42:24,065-CeraIVR:9687138391-DEBUG : Call hangup cleaning up
+2016-05-20 21:43:32,016-FastAGI-INFO : New Connection
+2016-05-20 21:43:32,016-FastAGI-INFO : agi_network = 'yes'
+2016-05-20 21:43:32,017-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-20 21:43:32,017-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000046'
+2016-05-20 21:43:32,018-FastAGI-INFO : agi_language = 'en'
+2016-05-20 21:43:32,019-FastAGI-INFO : agi_type = 'SIP'
+2016-05-20 21:43:32,019-FastAGI-INFO : agi_uniqueid = '1463760784.116'
+2016-05-20 21:43:32,020-FastAGI-INFO : agi_callerid = '919687138391'
+2016-05-20 21:43:32,020-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-20 21:43:32,021-FastAGI-INFO : agi_callingpres = '0'
+2016-05-20 21:43:32,021-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-20 21:43:32,022-FastAGI-INFO : agi_callington = '0'
+2016-05-20 21:43:32,022-FastAGI-INFO : agi_callingtns = '0'
+2016-05-20 21:43:32,023-FastAGI-INFO : agi_dnid = 'unknown'
+2016-05-20 21:43:32,023-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-20 21:43:32,023-FastAGI-INFO : agi_context = 'gjenroll'
+2016-05-20 21:43:32,024-FastAGI-INFO : agi_extension = '123'
+2016-05-20 21:43:32,024-FastAGI-INFO : agi_priority = '2'
+2016-05-20 21:43:32,025-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-20 21:43:32,029-FastAGI-INFO : agi_accountcode = ''
+2016-05-20 21:43:32,030-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=de"'
+2016-05-20 21:43:32,032-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-20 21:43:43,986-FastAGI-INFO : Send Command: "SAY DIGITS 120320111004 ''"
+2016-05-20 21:43:44,022-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-20 21:43:52,402-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-20 21:43:56,065-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-20 21:43:56,067-FastAGI-INFO : Connection terminated
+2016-05-20 21:43:56,067-CeraIVR:919687138391-DEBUG : Call hangup cleaning up
+2016-05-21 15:06:06,770-FastAGI-INFO : New Connection
+2016-05-21 15:06:06,808-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:06:06,809-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:06:06,809-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000000'
+2016-05-21 15:06:06,809-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:06:06,809-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:06:06,809-FastAGI-INFO : agi_uniqueid = '1463823366.0'
+2016-05-21 15:06:06,809-FastAGI-INFO : agi_callerid = '9428602674'
+2016-05-21 15:06:06,809-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:06:06,809-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:06:06,810-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:06:06,810-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:06:06,810-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:06:06,810-FastAGI-INFO : agi_dnid = '123'
+2016-05-21 15:06:06,810-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:06:06,810-FastAGI-INFO : agi_context = 'matrix'
+2016-05-21 15:06:06,810-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:06:06,810-FastAGI-INFO : agi_priority = '4'
+2016-05-21 15:06:06,811-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:06:06,811-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:06:06,811-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-21 15:06:18,918-CeraIVR:9428602674-INFO : Caller chose Gujarati
+2016-05-21 15:06:18,919-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=de"'
+2016-05-21 15:06:18,919-CeraIVR:9428602674-DEBUG : 9428602674
+2016-05-21 15:06:18,988-ivrlib-DEBUG : Connected to DB 
+2016-05-21 15:06:18,989-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/please-register '' 0"
+2016-05-21 15:06:24,910-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-21 15:06:28,590-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:06:28,591-FastAGI-INFO : Connection terminated
+2016-05-21 15:06:28,592-CeraIVR:9428602674-DEBUG : Call hangup cleaning up
+2016-05-21 15:07:50,321-FastAGI-INFO : New Connection
+2016-05-21 15:07:50,322-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:07:50,322-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:07:50,323-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000002'
+2016-05-21 15:07:50,323-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:07:50,324-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:07:50,324-FastAGI-INFO : agi_uniqueid = '1463823426.4'
+2016-05-21 15:07:50,325-FastAGI-INFO : agi_callerid = '919428602674'
+2016-05-21 15:07:50,325-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:07:50,326-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:07:50,326-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:07:50,327-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:07:50,327-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:07:50,327-FastAGI-INFO : agi_dnid = 'unknown'
+2016-05-21 15:07:50,328-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:07:50,328-FastAGI-INFO : agi_context = 'gjenroll'
+2016-05-21 15:07:50,329-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:07:50,330-FastAGI-INFO : agi_priority = '2'
+2016-05-21 15:07:50,330-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:07:50,331-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:07:50,332-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=de"'
+2016-05-21 15:07:50,341-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-21 15:08:01,920-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/sorry '' 0"
+2016-05-21 15:08:05,700-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-21 15:08:10,403-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-21 15:08:19,720-FastAGI-INFO : Send Command: "SAY DIGITS 120320111006 ''"
+2016-05-21 15:08:19,721-ivrlib-DEBUG : Connected to DB 
+2016-05-21 15:08:19,725-ivrlib-DEBUG : Connected to DB 
+2016-05-21 15:08:19,758-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-21 15:08:28,320-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:08:31,985-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:08:31,986-FastAGI-INFO : Connection terminated
+2016-05-21 15:08:31,986-CeraIVR:919428602674-DEBUG : Call hangup cleaning up
+2016-05-21 15:08:48,610-FastAGI-INFO : New Connection
+2016-05-21 15:08:48,611-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:08:48,611-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:08:48,612-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000003'
+2016-05-21 15:08:48,612-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:08:48,613-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:08:48,613-FastAGI-INFO : agi_uniqueid = '1463823528.7'
+2016-05-21 15:08:48,614-FastAGI-INFO : agi_callerid = '9428602674'
+2016-05-21 15:08:48,614-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:08:48,620-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:08:48,620-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:08:48,620-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:08:48,621-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:08:48,621-FastAGI-INFO : agi_dnid = '123'
+2016-05-21 15:08:48,622-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:08:48,622-FastAGI-INFO : agi_context = 'matrix'
+2016-05-21 15:08:48,622-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:08:48,623-FastAGI-INFO : agi_priority = '4'
+2016-05-21 15:08:48,623-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:08:48,624-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:08:48,628-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-21 15:08:59,560-CeraIVR:9428602674-INFO : Caller chose Gujarati
+2016-05-21 15:08:59,560-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=de"'
+2016-05-21 15:08:59,561-CeraIVR:9428602674-DEBUG : 9428602674
+2016-05-21 15:08:59,563-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/sub-menu '12345'"
+2016-05-21 15:09:08,507-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/exam '' 0"
+2016-05-21 15:09:10,510-FastAGI-INFO : Send Command: "SAY DIGITS 305 ''"
+2016-05-21 15:09:12,649-CeraIVR:9428602674-DEBUG : Start of Script for number 9428602674
+2016-05-21 15:09:12,649-CeraIVR:9428602674-DEBUG : sending message to caller ::9428602674
+2016-05-21 15:09:12,823-ivrlib-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=9428602674&msg=Sitting%20arrangement%20is%20in%20room:305
+2016-05-21 15:09:12,823-CeraIVR:9428602674-DEBUG : Getting SMS response for 9428602674
+2016-05-21 15:09:12,937-ivrlib-DEBUG : Response from operator is1 SMS Sent.
+2016-05-21 15:09:12,938-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-21 15:09:16,600-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:09:16,600-ivrlib-DEBUG : In get email function
+2016-05-21 15:09:16,601-ivrlib-DEBUG : In sendMail function
+2016-05-21 15:09:16,642-FastAGI-INFO : Connection terminated
+2016-05-21 15:09:16,642-CeraIVR:9428602674-DEBUG : Call hangup cleaning up
+2016-05-21 15:09:21,530-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:09:51,851-FastAGI-INFO : New Connection
+2016-05-21 15:09:51,852-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:09:51,852-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:09:51,852-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000004'
+2016-05-21 15:09:51,853-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:09:51,853-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:09:51,854-FastAGI-INFO : agi_uniqueid = '1463823591.8'
+2016-05-21 15:09:51,855-FastAGI-INFO : agi_callerid = '7405830460'
+2016-05-21 15:09:51,855-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:09:51,870-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:09:51,870-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:09:51,871-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:09:51,871-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:09:51,872-FastAGI-INFO : agi_dnid = '123'
+2016-05-21 15:09:51,872-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:09:51,873-FastAGI-INFO : agi_context = 'matrix'
+2016-05-21 15:09:51,873-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:09:51,873-FastAGI-INFO : agi_priority = '4'
+2016-05-21 15:09:51,874-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:09:51,874-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:09:51,875-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-21 15:09:59,600-CeraIVR:7405830460-INFO : Caller chose English
+2016-05-21 15:09:59,600-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
+2016-05-21 15:09:59,601-CeraIVR:7405830460-DEBUG : 7405830460
+2016-05-21 15:09:59,603-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/sub-menu '12345'"
+2016-05-21 15:10:05,785-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/your-attendance '' 0"
+2016-05-21 15:10:08,470-FastAGI-INFO : Send Command: "SAY DIGITS 80 ''"
+2016-05-21 15:10:09,847-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/percentage '' 0"
+2016-05-21 15:10:10,890-CeraIVR:7405830460-DEBUG : Start of Script for number 7405830460
+2016-05-21 15:10:10,890-CeraIVR:7405830460-DEBUG : sending message to caller ::7405830460
+2016-05-21 15:10:10,999-ivrlib-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=7405830460&msg=Your%20attendance%20is%2080
+2016-05-21 15:10:10,999-CeraIVR:7405830460-DEBUG : Getting SMS response for 7405830460
+2016-05-21 15:10:11,139-ivrlib-DEBUG : Response from operator is1 SMS Sent.
+2016-05-21 15:10:11,140-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-21 15:10:14,248-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:10:14,248-ivrlib-DEBUG : In get email function
+2016-05-21 15:10:14,250-ivrlib-DEBUG : In sendMail function
+2016-05-21 15:10:14,253-FastAGI-INFO : Connection terminated
+2016-05-21 15:10:14,254-CeraIVR:7405830460-DEBUG : Call hangup cleaning up
+2016-05-21 15:10:20,414-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:28:12,445-FastAGI-INFO : New Connection
+2016-05-21 15:28:12,446-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:28:12,446-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:28:12,447-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000005'
+2016-05-21 15:28:12,447-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:28:12,448-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:28:12,449-FastAGI-INFO : agi_uniqueid = '1463824692.9'
+2016-05-21 15:28:12,453-FastAGI-INFO : agi_callerid = '7405091551'
+2016-05-21 15:28:12,454-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:28:12,455-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:28:12,455-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:28:12,456-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:28:12,456-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:28:12,457-FastAGI-INFO : agi_dnid = '123'
+2016-05-21 15:28:12,458-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:28:12,459-FastAGI-INFO : agi_context = 'matrix'
+2016-05-21 15:28:12,459-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:28:12,460-FastAGI-INFO : agi_priority = '4'
+2016-05-21 15:28:12,460-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:28:12,462-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:28:12,472-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-21 15:28:23,900-CeraIVR:7405091551-INFO : Caller chose English
+2016-05-21 15:28:23,900-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
+2016-05-21 15:28:23,901-CeraIVR:7405091551-DEBUG : 7405091551
+2016-05-21 15:28:23,903-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/sub-menu '12345'"
+2016-05-21 15:28:38,792-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/your-attendance '' 0"
+2016-05-21 15:28:41,473-FastAGI-INFO : Send Command: "SAY DIGITS 15 ''"
+2016-05-21 15:28:42,820-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/percentage '' 0"
+2016-05-21 15:28:43,870-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/low-attendance '' 0"
+2016-05-21 15:28:46,970-CeraIVR:7405091551-DEBUG : Start of Script for number 7405091551
+2016-05-21 15:28:46,970-CeraIVR:7405091551-DEBUG : sending message to caller ::7405091551
+2016-05-21 15:28:47,058-ivrlib-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=7405091551&msg=You%20need%20to%20atten%20more%20lectures,%20Your%20attendance%20is%2015
+2016-05-21 15:28:47,058-CeraIVR:7405091551-DEBUG : Getting SMS response for 7405091551
+2016-05-21 15:28:49,528-ivrlib-DEBUG : Response from operator is1 SMS Sent.
+2016-05-21 15:28:49,528-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-21 15:28:52,639-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:28:52,639-ivrlib-DEBUG : In get email function
+2016-05-21 15:28:52,641-ivrlib-DEBUG : In sendMail function
+2016-05-21 15:28:52,651-FastAGI-INFO : Connection terminated
+2016-05-21 15:28:52,651-CeraIVR:7405091551-DEBUG : Call hangup cleaning up
+2016-05-21 15:28:57,387-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:31:56,580-FastAGI-INFO : New Connection
+2016-05-21 15:31:56,581-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:31:56,581-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:31:56,582-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000006'
+2016-05-21 15:31:56,582-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:31:56,583-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:31:56,583-FastAGI-INFO : agi_uniqueid = '1463824916.10'
+2016-05-21 15:31:56,584-FastAGI-INFO : agi_callerid = '7600825161'
+2016-05-21 15:31:56,584-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:31:56,590-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:31:56,590-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:31:56,591-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:31:56,591-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:31:56,591-FastAGI-INFO : agi_dnid = '123'
+2016-05-21 15:31:56,592-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:31:56,592-FastAGI-INFO : agi_context = 'matrix'
+2016-05-21 15:31:56,593-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:31:56,593-FastAGI-INFO : agi_priority = '4'
+2016-05-21 15:31:56,594-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:31:56,594-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:31:56,595-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-21 15:32:07,220-CeraIVR:7600825161-INFO : Caller chose English
+2016-05-21 15:32:07,220-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
+2016-05-21 15:32:07,221-CeraIVR:7600825161-DEBUG : 7600825161
+2016-05-21 15:32:07,222-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/please-register '' 0"
+2016-05-21 15:32:13,940-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-21 15:32:17,050-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:32:17,051-FastAGI-INFO : Connection terminated
+2016-05-21 15:32:17,051-CeraIVR:7600825161-DEBUG : Call hangup cleaning up
+2016-05-21 15:32:39,702-FastAGI-INFO : New Connection
+2016-05-21 15:32:39,703-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:32:39,703-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:32:39,703-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000007'
+2016-05-21 15:32:39,704-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:32:39,704-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:32:39,705-FastAGI-INFO : agi_uniqueid = '1463824927.11'
+2016-05-21 15:32:39,705-FastAGI-INFO : agi_callerid = '917600825161'
+2016-05-21 15:32:39,706-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:32:39,707-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:32:39,707-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:32:39,707-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:32:39,708-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:32:39,708-FastAGI-INFO : agi_dnid = 'unknown'
+2016-05-21 15:32:39,709-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:32:39,709-FastAGI-INFO : agi_context = 'enenroll'
+2016-05-21 15:32:39,720-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:32:39,720-FastAGI-INFO : agi_priority = '2'
+2016-05-21 15:32:39,721-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:32:39,721-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:32:39,722-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
+2016-05-21 15:32:39,723-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-21 15:32:46,240-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-21 15:32:52,742-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-21 15:33:03,554-FastAGI-INFO : Send Command: "SAY DIGITS 120232031230 ''"
+2016-05-21 15:33:03,556-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:33:11,553-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:33:11,554-FastAGI-INFO : Connection terminated
+2016-05-21 15:33:11,555-CeraIVR:917600825161-DEBUG : Call hangup cleaning up
+2016-05-21 15:34:02,640-FastAGI-INFO : New Connection
+2016-05-21 15:34:02,641-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:34:02,641-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:34:02,642-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000008'
+2016-05-21 15:34:02,644-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:34:02,644-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:34:02,645-FastAGI-INFO : agi_uniqueid = '1463825042.14'
+2016-05-21 15:34:02,646-FastAGI-INFO : agi_callerid = '7405830460'
+2016-05-21 15:34:02,646-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:34:02,646-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:34:02,647-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:34:02,647-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:34:02,647-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:34:02,647-FastAGI-INFO : agi_dnid = '123'
+2016-05-21 15:34:02,660-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:34:02,660-FastAGI-INFO : agi_context = 'matrix'
+2016-05-21 15:34:02,661-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:34:02,661-FastAGI-INFO : agi_priority = '4'
+2016-05-21 15:34:02,662-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:34:02,662-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:34:02,663-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-21 15:34:11,410-CeraIVR:7405830460-INFO : Caller chose English
+2016-05-21 15:34:11,410-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
+2016-05-21 15:34:11,411-CeraIVR:7405830460-DEBUG : 7405830460
+2016-05-21 15:34:11,412-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/please-register '' 0"
+2016-05-21 15:34:18,080-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-21 15:34:21,182-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:34:21,183-FastAGI-INFO : Connection terminated
+2016-05-21 15:34:21,183-CeraIVR:7405830460-DEBUG : Call hangup cleaning up
+2016-05-21 15:34:42,337-FastAGI-INFO : New Connection
+2016-05-21 15:34:42,338-FastAGI-INFO : agi_network = 'yes'
+2016-05-21 15:34:42,339-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-21 15:34:42,339-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000009'
+2016-05-21 15:34:42,340-FastAGI-INFO : agi_language = 'en'
+2016-05-21 15:34:42,340-FastAGI-INFO : agi_type = 'SIP'
+2016-05-21 15:34:42,341-FastAGI-INFO : agi_uniqueid = '1463825052.15'
+2016-05-21 15:34:42,342-FastAGI-INFO : agi_callerid = '917405830460'
+2016-05-21 15:34:42,344-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-21 15:34:42,344-FastAGI-INFO : agi_callingpres = '0'
+2016-05-21 15:34:42,345-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-21 15:34:42,346-FastAGI-INFO : agi_callington = '0'
+2016-05-21 15:34:42,346-FastAGI-INFO : agi_callingtns = '0'
+2016-05-21 15:34:42,347-FastAGI-INFO : agi_dnid = 'unknown'
+2016-05-21 15:34:42,349-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-21 15:34:42,350-FastAGI-INFO : agi_context = 'enenroll'
+2016-05-21 15:34:42,350-FastAGI-INFO : agi_extension = '123'
+2016-05-21 15:34:42,351-FastAGI-INFO : agi_priority = '2'
+2016-05-21 15:34:42,351-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-21 15:34:42,352-FastAGI-INFO : agi_accountcode = ''
+2016-05-21 15:34:42,353-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=en"'
+2016-05-21 15:34:42,358-FastAGI-INFO : Send Command: 'GET DATA /opt/lectureinfo/sounds/please-enter 3000.0 12'
+2016-05-21 15:34:53,480-FastAGI-INFO : Send Command: "SAY DIGITS 120320111007 ''"
+2016-05-21 15:34:53,486-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-21 15:35:02,065-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:35:05,170-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-21 15:35:05,171-FastAGI-INFO : Connection terminated
+2016-05-21 15:35:05,171-CeraIVR:917405830460-DEBUG : Call hangup cleaning up
+2016-05-22 18:26:57,843-FastAGI-INFO : New Connection
+2016-05-22 18:26:57,873-FastAGI-INFO : agi_network = 'yes'
+2016-05-22 18:26:57,873-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-22 18:26:57,874-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000000'
+2016-05-22 18:26:57,874-FastAGI-INFO : agi_language = 'en'
+2016-05-22 18:26:57,874-FastAGI-INFO : agi_type = 'SIP'
+2016-05-22 18:26:57,874-FastAGI-INFO : agi_uniqueid = '1463921817.0'
+2016-05-22 18:26:57,874-FastAGI-INFO : agi_callerid = '9428602674'
+2016-05-22 18:26:57,875-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-22 18:26:57,875-FastAGI-INFO : agi_callingpres = '0'
+2016-05-22 18:26:57,875-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-22 18:26:57,875-FastAGI-INFO : agi_callington = '0'
+2016-05-22 18:26:57,875-FastAGI-INFO : agi_callingtns = '0'
+2016-05-22 18:26:57,875-FastAGI-INFO : agi_dnid = '123'
+2016-05-22 18:26:57,875-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-22 18:26:57,876-FastAGI-INFO : agi_context = 'matrix'
+2016-05-22 18:26:57,876-FastAGI-INFO : agi_extension = '123'
+2016-05-22 18:26:57,876-FastAGI-INFO : agi_priority = '4'
+2016-05-22 18:26:57,876-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-22 18:26:57,877-FastAGI-INFO : agi_accountcode = ''
+2016-05-22 18:26:57,878-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-22 18:27:06,979-CeraIVR:9428602674-INFO : Caller chose Hindi
+2016-05-22 18:27:06,979-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=fr"'
+2016-05-22 18:27:06,980-CeraIVR:9428602674-DEBUG : 9428602674
+2016-05-22 18:27:07,055-ivrlib-DEBUG : Connected to DB 
+2016-05-22 18:27:07,058-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/sub-menu '12345'"
+2016-05-22 18:27:17,812-ivrlib-DEBUG : Connected to DB 
+2016-05-22 18:27:17,814-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/dcn '' 0"
+2016-05-22 18:27:20,251-FastAGI-INFO : Send Command: "SAY DIGITS 22 ''"
+2016-05-22 18:27:21,491-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/fib '' 0"
+2016-05-22 18:27:24,599-FastAGI-INFO : Send Command: "SAY DIGITS 20 ''"
+2016-05-22 18:27:26,041-CeraIVR:9428602674-DEBUG : Start of Script for number 9428602674
+2016-05-22 18:27:26,041-CeraIVR:9428602674-DEBUG : sending message to caller ::9428602674
+2016-05-22 18:27:27,242-ivrlib-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=9428602674&msg=External-Data%20Communications%20Network:22%20External-Fundamentals%20of%20Image%20processing:20
+2016-05-22 18:27:27,243-CeraIVR:9428602674-DEBUG : Getting SMS response for 9428602674
+2016-05-22 18:27:27,517-ivrlib-DEBUG : Response from operator is1 SMS Sent.
+2016-05-22 18:27:27,518-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-22 18:27:30,580-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-22 18:27:30,581-ivrlib-DEBUG : In get email function
+2016-05-22 18:27:30,582-ivrlib-DEBUG : Connected to DB 
+2016-05-22 18:27:30,583-ivrlib-DEBUG : In sendMail function
+2016-05-22 18:27:30,609-FastAGI-INFO : Connection terminated
+2016-05-22 18:27:30,613-CeraIVR:9428602674-DEBUG : Call hangup cleaning up
+2016-05-22 18:27:43,065-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-22 18:38:53,411-FastAGI-INFO : New Connection
+2016-05-22 18:38:53,412-FastAGI-INFO : agi_network = 'yes'
+2016-05-22 18:38:53,412-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-22 18:38:53,413-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000001'
+2016-05-22 18:38:53,413-FastAGI-INFO : agi_language = 'en'
+2016-05-22 18:38:53,414-FastAGI-INFO : agi_type = 'SIP'
+2016-05-22 18:38:53,414-FastAGI-INFO : agi_uniqueid = '1463922533.1'
+2016-05-22 18:38:53,415-FastAGI-INFO : agi_callerid = '9428602674'
+2016-05-22 18:38:53,415-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-22 18:38:53,416-FastAGI-INFO : agi_callingpres = '0'
+2016-05-22 18:38:53,416-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-22 18:38:53,417-FastAGI-INFO : agi_callington = '0'
+2016-05-22 18:38:53,417-FastAGI-INFO : agi_callingtns = '0'
+2016-05-22 18:38:53,418-FastAGI-INFO : agi_dnid = '123'
+2016-05-22 18:38:53,431-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-22 18:38:53,432-FastAGI-INFO : agi_context = 'matrix'
+2016-05-22 18:38:53,432-FastAGI-INFO : agi_extension = '123'
+2016-05-22 18:38:53,433-FastAGI-INFO : agi_priority = '4'
+2016-05-22 18:38:53,433-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-22 18:38:53,433-FastAGI-INFO : agi_accountcode = ''
+2016-05-22 18:38:53,434-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-22 18:38:54,828-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-22 18:38:54,829-FastAGI-INFO : Connection terminated
+2016-05-22 18:38:54,829-CeraIVR:9428602674-DEBUG : Call hangup cleaning up
+2016-05-22 18:39:54,154-FastAGI-INFO : New Connection
+2016-05-22 18:39:54,154-FastAGI-INFO : agi_network = 'yes'
+2016-05-22 18:39:54,155-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-22 18:39:54,155-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000002'
+2016-05-22 18:39:54,156-FastAGI-INFO : agi_language = 'en'
+2016-05-22 18:39:54,156-FastAGI-INFO : agi_type = 'SIP'
+2016-05-22 18:39:54,157-FastAGI-INFO : agi_uniqueid = '1463922594.2'
+2016-05-22 18:39:54,158-FastAGI-INFO : agi_callerid = '9898396969'
+2016-05-22 18:39:54,158-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-22 18:39:54,162-FastAGI-INFO : agi_callingpres = '0'
+2016-05-22 18:39:54,162-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-22 18:39:54,163-FastAGI-INFO : agi_callington = '0'
+2016-05-22 18:39:54,163-FastAGI-INFO : agi_callingtns = '0'
+2016-05-22 18:39:54,163-FastAGI-INFO : agi_dnid = '123'
+2016-05-22 18:39:54,164-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-22 18:39:54,164-FastAGI-INFO : agi_context = 'matrix'
+2016-05-22 18:39:54,164-FastAGI-INFO : agi_extension = '123'
+2016-05-22 18:39:54,165-FastAGI-INFO : agi_priority = '4'
+2016-05-22 18:39:54,165-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-22 18:39:54,166-FastAGI-INFO : agi_accountcode = ''
+2016-05-22 18:39:54,168-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-22 18:40:00,485-CeraIVR:9898396969-INFO : Caller chose Hindi
+2016-05-22 18:40:00,485-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=fr"'
+2016-05-22 18:40:00,486-CeraIVR:9898396969-DEBUG : 9898396969
+2016-05-22 18:40:00,488-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/sub-menu '12345'"
+2016-05-22 18:40:10,502-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/your-attendance '' 0"
+2016-05-22 18:40:13,252-FastAGI-INFO : Send Command: "SAY DIGITS 23 ''"
+2016-05-22 18:40:14,475-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/percentage '' 0"
+2016-05-22 18:40:15,535-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/low-attendance '' 0"
+2016-05-22 18:40:20,575-CeraIVR:9898396969-DEBUG : Start of Script for number 9898396969
+2016-05-22 18:40:20,575-CeraIVR:9898396969-DEBUG : sending message to caller ::9898396969
+2016-05-22 18:40:20,801-ivrlib-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=9898396969&msg=You%20need%20to%20atten%20more%20lectures,%20Your%20attendance%20is%2023
+2016-05-22 18:40:20,802-CeraIVR:9898396969-DEBUG : Getting SMS response for 9898396969
+2016-05-22 18:40:21,110-ivrlib-DEBUG : Response from operator is1 SMS Sent.
+2016-05-22 18:40:21,111-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-22 18:40:24,172-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-22 18:40:24,172-ivrlib-DEBUG : In get email function
+2016-05-22 18:40:24,174-ivrlib-DEBUG : In sendMail function
+2016-05-22 18:40:24,177-FastAGI-INFO : Connection terminated
+2016-05-22 18:40:24,177-CeraIVR:9898396969-DEBUG : Call hangup cleaning up
+2016-05-22 18:40:32,486-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-22 18:41:40,645-FastAGI-INFO : New Connection
+2016-05-22 18:41:40,646-FastAGI-INFO : agi_network = 'yes'
+2016-05-22 18:41:40,646-FastAGI-INFO : agi_request = 'agi://127.0.0.1:4570'
+2016-05-22 18:41:40,646-FastAGI-INFO : agi_channel = 'SIP/172.16.31.32-00000003'
+2016-05-22 18:41:40,647-FastAGI-INFO : agi_language = 'en'
+2016-05-22 18:41:40,647-FastAGI-INFO : agi_type = 'SIP'
+2016-05-22 18:41:40,648-FastAGI-INFO : agi_uniqueid = '1463922700.3'
+2016-05-22 18:41:40,648-FastAGI-INFO : agi_callerid = '9898396969'
+2016-05-22 18:41:40,649-FastAGI-INFO : agi_calleridname = 'unknown'
+2016-05-22 18:41:40,649-FastAGI-INFO : agi_callingpres = '0'
+2016-05-22 18:41:40,650-FastAGI-INFO : agi_callingani2 = '0'
+2016-05-22 18:41:40,650-FastAGI-INFO : agi_callington = '0'
+2016-05-22 18:41:40,650-FastAGI-INFO : agi_callingtns = '0'
+2016-05-22 18:41:40,651-FastAGI-INFO : agi_dnid = '123'
+2016-05-22 18:41:40,651-FastAGI-INFO : agi_rdnis = 'unknown'
+2016-05-22 18:41:40,651-FastAGI-INFO : agi_context = 'matrix'
+2016-05-22 18:41:40,652-FastAGI-INFO : agi_extension = '123'
+2016-05-22 18:41:40,655-FastAGI-INFO : agi_priority = '4'
+2016-05-22 18:41:40,655-FastAGI-INFO : agi_enhanced = '0.0'
+2016-05-22 18:41:40,656-FastAGI-INFO : agi_accountcode = ''
+2016-05-22 18:41:40,658-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/welcome '123'"
+2016-05-22 18:41:45,255-CeraIVR:9898396969-INFO : Caller chose Hindi
+2016-05-22 18:41:45,256-FastAGI-INFO : Send Command: 'EXEC Set "CHANNEL(language)=fr"'
+2016-05-22 18:41:45,257-CeraIVR:9898396969-DEBUG : 9898396969
+2016-05-22 18:41:45,260-FastAGI-INFO : Send Command: "GET OPTION /opt/lectureinfo/sounds/sub-menu '12345'"
+2016-05-22 18:41:49,473-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/your-attendance '' 0"
+2016-05-22 18:41:52,194-FastAGI-INFO : Send Command: "SAY DIGITS 90 ''"
+2016-05-22 18:41:53,805-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/percentage '' 0"
+2016-05-22 18:41:54,852-CeraIVR:9898396969-DEBUG : Start of Script for number 9898396969
+2016-05-22 18:41:54,853-CeraIVR:9898396969-DEBUG : sending message to caller ::9898396969
+2016-05-22 18:41:55,086-ivrlib-DEBUG : /sendsms.aspx?mobile=9898396969&pass=100&senderid=LINTEL&to=9898396969&msg=Your%20attendance%20is%2090
+2016-05-22 18:41:55,086-CeraIVR:9898396969-DEBUG : Getting SMS response for 9898396969
+2016-05-22 18:41:55,388-ivrlib-DEBUG : Response from operator is1 SMS Sent.
+2016-05-22 18:41:55,390-FastAGI-INFO : Send Command: "STREAM FILE /opt/lectureinfo/sounds/thankyou '' 0"
+2016-05-22 18:41:58,452-FastAGI-INFO : Send Command: 'HANGUP'
+2016-05-22 18:41:58,453-ivrlib-DEBUG : In get email function
+2016-05-22 18:41:58,454-ivrlib-DEBUG : In sendMail function
+2016-05-22 18:41:58,457-FastAGI-INFO : Connection terminated
+2016-05-22 18:41:58,465-CeraIVR:9898396969-DEBUG : Call hangup cleaning up
+2016-05-22 18:42:09,242-FastAGI-INFO : Send Command: 'HANGUP'

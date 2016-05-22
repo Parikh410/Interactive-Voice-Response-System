@@ -92,16 +92,16 @@ class Lecture(ivrlib):
             df.addCallback(self.hangup)
 
     def checkstudentdata(self,res):
-        if res:
+        try:
+	    x = res[0]['enrollment_number']
+	    print "Your enrollment number is ",x
             print res
             sql = """INSERT INTO students (enrollment_number,mobile_number,indcn,infib,emdcn,emfib,attendance,exam,email) values(%s,%s,%s,%s,%s,%s,%s,%s,%s) """
             df = dbpool.runQuery(sql, (str(self.agi.enrollment), str(self.callerid[-10:]),str( res[0]['indcn']), str(res[0]['infib']),str(res[0]['emdcn']),str(res[0]['emfib']),str(res[0]['attendance']),str(res[0]['exam']),res[0]['email']))
             df.addCallback(self.thankyoureg)
-        else:
-            self.entries = self.entries + 1
-            print self.entries
-            df = self.agi.streamFile(soundsdir+'sorry')
-            df.addCallback(self.collectEnroll)
+	except:
+	    print "We are here...."
+	    self.hangup()
 
     def thankyoureg(self,res):
         df = self.agi.streamFile(soundsdir+'thankyou')
@@ -337,7 +337,7 @@ class LectureInfo(ivrlib):
             s.append(self.agi.streamFile,soundsdir+'lecture2')
             s.append(self.agi.streamFile,soundsdir+'fib')
             s.append(self.agi.sayDigits,room2)
-            s().addCallback(self.getemail)
+            s().addCallback(self.sendMessage)
 
     def exam(self):
         sql = """SELECT exam FROM students WHERE enrollment_number=%s"""
